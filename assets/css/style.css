@@ -27,8 +27,8 @@ body {
     text-align: center;
 }
 
+/* Need to look at how to filter the image */
 #hero {
-    margin-left: auto;
-    margin-left: auto;
-    padding-top: 30px;
+    padding: 50px 30px;
+    filter: brightness(1) contrast(1) opacity(1) saturate(1);
 }
