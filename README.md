@@ -1,6 +1,5 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-https://gethindavies1990.github.io/CI_MS2_DTR/
 
 Welcome GethinDavies1990,
 
