@@ -1,7 +1,11 @@
 body {
     background-color: #EF233C;
     font-family: 'Righteous', cursive;
-    color: #fff;
+    width: auto;
+}
+
+nav {
+    width: auto;
 }
 
 ul {
@@ -13,8 +17,20 @@ ul {
 li {
     display: inline;
     float: right;
+    font-size: 1.rem;
+    margin-top: 60px;
 }
 
 .logo {
     float: left;
+    font-size: 3.5rem;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 2rem;
 }
