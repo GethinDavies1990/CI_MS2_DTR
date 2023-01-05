@@ -3,6 +3,7 @@ body {
     font-family: 'Righteous', cursive;
     width: auto;
 }
+
 .logo {
     float: left;
     font-size: 2.5rem;
@@ -19,4 +20,15 @@ body {
     color: #fff;
     font-size: 1.5rem;
     margin-top: 40px;
-  }
+    margin-right: 50px;
+}
+
+#image-wrapper {
+    text-align: center;
+}
+
+#hero {
+    margin-left: auto;
+    margin-left: auto;
+    padding-top: 30px;
+}
