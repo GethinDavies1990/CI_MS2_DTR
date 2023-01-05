@@ -1,6 +1,9 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+<<<<<<< HEAD
 https://gethindavies1990.github.io/CI_MS2_DTR/
+=======
+>>>>>>> refs/remotes/origin/main
 
 Welcome GethinDavies1990,
 
