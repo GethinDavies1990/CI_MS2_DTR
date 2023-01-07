@@ -4,6 +4,11 @@ body {
     width: auto;
 }
 
+h3 {
+    font-size: 3.5rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 .logo {
     float: left;
     font-size: 2.5rem;
@@ -24,11 +29,38 @@ body {
 }
 
 #image-wrapper {
+    width: 1200px;
+    position: relative;  
     text-align: center;
+    justify-content: center;
+    padding-bottom: 50px;
 }
 
 /* Need to look at how to filter the image */
 #hero {
-    padding: 50px 30px;
-    filter: brightness(1) contrast(1) opacity(1) saturate(1);
+    width: 1200px;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+#hero-box {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: white;
+        padding: 10px;
+        text-align: left;
+}
+
+.social-container {
+    text-align: center;
+    color: #fff;
+}
+
+.socials {
+    color: #fff;
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 15px 15px
 }
