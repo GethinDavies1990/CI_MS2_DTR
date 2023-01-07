@@ -33,14 +33,14 @@ h3 {
     position: relative;  
     text-align: center;
     justify-content: center;
-    padding-bottom: 50px;
+    display: flex;
+    margin: 30px auto;
 }
 
 /* Need to look at how to filter the image */
 #hero {
-    width: 1200px;
-    width: 100%;
     object-fit: cover;
+    border-radius: 0 70px 0 70px;
     
 }
 
