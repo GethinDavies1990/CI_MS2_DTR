@@ -79,3 +79,60 @@ h3 {
 .socials:hover {
     color: #111;
 }
+
+/* Quiz Game */
+
+.quiz-section {
+    text-align: center;
+    justify-content: center;
+}
+
+.quiz-container {
+    width: 800px;
+    max-width: 80%;
+    background-color: #fff;
+    margin: 30px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #111;
+    border: 1.5px solid #EF233C;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    color: #fff;
+}
+
+.btn:hover {
+    border-color: #EF233C;
+}
+
+.correct {
+    background-color: #50C878;
+}
+
+.wrong {
+    background-color: #EF233C;
+}
+
+.start-btn, .next-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+
