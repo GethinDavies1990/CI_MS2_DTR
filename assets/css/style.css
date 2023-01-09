@@ -4,10 +4,11 @@ body {
     width: auto;
 }
 
-h3 {
+h2, h3 {
     font-size: 3rem;
     padding-top: 15px;
     padding-bottom: 15px;
+    color: #fff;
 }
 .logo {
     float: left;
@@ -53,16 +54,6 @@ h3 {
         text-align: left;
 }
 
-#score-tracker {
-    width: 1200px;
-    height: 600px;
-    background-color: #fff;
-    text-align: center;
-    margin: 30px auto;
-    padding: 10px;
-
-}
-
 .social-container {
     text-align: center;
     color: #fff;
@@ -87,7 +78,7 @@ h3 {
     justify-content: center;
 }
 
-.quiz-container {
+.quiz-container, #score-tracker {
     width: 800px;
     max-width: 80%;
     background-color: #fff;
@@ -135,5 +126,3 @@ h3 {
 .hide {
     display: none;
 }
-
-
