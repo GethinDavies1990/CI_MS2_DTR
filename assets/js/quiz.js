@@ -4,6 +4,8 @@ const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 
+let promptElement;
+
 let shuffledQuestions, currentQuestionIndex
 
 startButton.addEventListener('click', startGame)
@@ -18,6 +20,7 @@ function startGame() {
   currentQuestionIndex = 0
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
+  promptElement = document.getElementById('quiz-prompt');
 }
 
 function setNextQuestion() {
@@ -60,12 +63,21 @@ function selectAnswer(e) {
     startButton.innerText = 'Restart'
     startButton.classList.remove('hide')
   }
+
+  if (correct) {
+    element.classList.add('correct')
+    promptElement.innerHTML = "Correct!"
+  } else {
+    element.classList.add('wrong')
+    promptElement.innerHTML = "Wrong!"
+  }
 }
 
 function setStatusClass(element, correct) {
   clearStatusClass(element)
   if (correct) {
     element.classList.add('correct')
+    
   } else {
     element.classList.add('wrong')
   }
