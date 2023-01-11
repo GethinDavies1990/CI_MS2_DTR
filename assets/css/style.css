@@ -74,7 +74,7 @@ h1, h2, h3 {
 
 /* Quiz Game */
 
-.quiz-container {
+.pre-quiz-container {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -130,4 +130,19 @@ h1, h2, h3 {
 
 .btn[disabled]:hover {
     cursor: not-allowed;
+}
+
+#highscore-btn {
+    background-color: #111;
+    color: #fff;
+}
+
+#highscore-btn:hover {
+    background-color: #fff;
+    color: #EF233C;
+}
+
+.fa-crown, .fa-gamepad {
+    font-size: 1.5rem;
+    margin-left: 1rem;
 }
