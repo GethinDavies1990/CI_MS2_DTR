@@ -29,19 +29,20 @@ h2, h3 {
     margin-right: 50px;
 }
 
-#image-wrapper {
-    width: 1200px;
-    position: relative;  
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    margin: 30px auto;
+.image-div {
+    width: 100vw;
+    
 }
-
-/* Need to look at how to filter the image */
-#hero {
-    object-fit: cover;
-    border-radius: 0 70px 0 70px;
+#image-wrapper {
+    background: url("../images/hero.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    width: 70%;
+    margin: 10px auto;
+    padding-top: 30px;
+    border-radius: 5px;
     
 }
 
