@@ -74,7 +74,7 @@ h1, h2, h3 {
 
 /* Quiz Game */
 
-.pre-quiz-container {
+.quiz-container {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -145,4 +145,73 @@ h1, h2, h3 {
 .fa-crown, .fa-gamepad {
     font-size: 1.5rem;
     margin-left: 1rem;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 2rem;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: 1.5rem;
+    min-width: 40rem;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transform: transition 100ms;
+}
+
+.choice-prefix {
+    padding: px;
+    color: #fff;
+}
+
+.choice-text {
+    padding: 3px;
+    width: 100%;
+    text-align: center;
+}
+
+.correct {
+    background-color: #68BB59;
+}
+
+.incorrect {
+    background-color: #EF233C;
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid #68BB59;
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: #68BB59;
+}
+
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+    }
 }
