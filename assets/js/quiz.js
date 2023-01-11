@@ -61,13 +61,14 @@ getNewQuestion = () => {
   const questionIndex = Math.floor(Math.random() * availableQuestions.length)
   currentQuestion = availableQuestions[questionIndex]
   question.innerText = currentQuestion.question
+  
   choices.forEach(choice => {
     const number = choice.dataset['number']
     choice.innerText = currentQuestion['choice' + number]
   })
   availableQuestions.splice(questionIndex, 1)
 
-  acceptingAnswers = true;
+  acceptingAnswers = true
 }
 
 choices.forEach(choice => {
@@ -85,7 +86,7 @@ choices.forEach(choice => {
       incrementScore(SCORE_POINTS)
     }
 
-    selectedChoice.parentElement.add(classToApply)
+    selectedChoice.parentElement.classList.add(classToApply)
 
     setTimeout(() => {
       selectedChoice.parentElement.classList.remove(classToApply)
@@ -94,3 +95,10 @@ choices.forEach(choice => {
 
   })
 })
+
+incrementScore = num => {
+  score +=num
+  scoreText.innerText = score
+}
+
+startGame()
