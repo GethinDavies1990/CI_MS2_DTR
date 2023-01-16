@@ -210,6 +210,8 @@ h1, h2, h3 {
     background: #68BB59;
 }
 
+
+
 @media screen and (max-width: 768px) {
     .choice-container {
         min-width: 40rem;
