@@ -1,7 +1,7 @@
 function getData(cb) {
   var xhr = new XMLHttpRequest();
 
-  xhr.open("GET", "https://apiv2.allsportsapi.com/football/?&met=Standings&leagueId=59&APIkey=4dc7334d95e72e4425145e1a6b33afaf7a41c8dd5765d736e958dfa001b13943")
+  xhr.open("GET", "https://app.sportdataapi.com/api/v1/soccer/standings?apikey=57e89040-96af-11ed-88ea-854864b3c3cd&season_id=496")
   xhr.send();
 
   xhr.onreadystatechange = function() {
@@ -17,4 +17,4 @@ function printDataToConsole(data) {
 
 getData(printDataToConsole);
 
-document.getElementsByClassName('league-standings').innerHTML = `<h1>Hey</h1>`
+document.getElementById('league-standings').innerHTML = `<h1>Hey${data.length}</h1>`
