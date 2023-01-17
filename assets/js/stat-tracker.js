@@ -11,6 +11,8 @@ function topGoalScorer(cb) {
   };
 }
 
-topGoalScorer(function(topGoalScorer) {
-	console.log(topGoalScorer);
-});
+function writeToDocument(type) {
+	topGoalScorer(type, function() {
+		document.getElementById("")
+	})
+}
