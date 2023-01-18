@@ -210,6 +210,25 @@ h1, h2, h3 {
     background: #68BB59;
 }
 
+/* Stat Tracker */
+
+#league-standing-container {
+    margin: 30px auto;
+    justify-content: center;
+    background-color: #fff;
+}
+
+#standing-data {
+    width: 800px;
+    display:grid;
+    text-align: center;
+}
+
+#standing-data th {
+margin: 30px;
+padding: 30px;
+}
+
 
 
 @media screen and (max-width: 768px) {

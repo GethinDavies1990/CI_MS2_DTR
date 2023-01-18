@@ -1,10 +1,16 @@
-function fetchData() {
-    fetch("https://app.sportdataapi.com/api/v1/soccer/standings?apikey=57e89040-96af-11ed-88ea-854864b3c3cd&season_id=496").then(response => {
-        return response.json();
-    }).then(standings => {
-        console.log(standings.data)
-    });
+function fetchLeague() {
+    const options = {
+        method: 'GET',
+        headers: {
+            'X-RapidAPI-Key': 'b2f880e7ae15d7c6f8fa8a87b51b71aa',
+            'X-RapidAPI-Host': 'v3.football.api-sports.io'
+        }
+    };
+    
+    fetch('https://v3.football.api-sports.io/standings?league=39&season=2022', options)
+        .then(response => response.json())
+        .then(response => console.log(response))
+        .catch(err => console.error(err));
+
 }
-
-fetchData();
-
+fetchLeague()
