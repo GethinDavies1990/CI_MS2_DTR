@@ -1,4 +1,6 @@
-$.getJSON('https://api.unsplash.com/photos/?client_id=PFArrh-ILrPosvCml41PMDEjSlXGjJdpvjHPH76OLxA');
+$.getJSON('https://api.unsplash.com/users/brianhaferkamp/photos/?client_id=PFArrh-ILrPosvCml41PMDEjSlXGjJdpvjHPH76OLxA', function(data){
+    console.log(data);
+});
 
 
 
@@ -8,6 +10,5 @@ $.getJSON('https://api.unsplash.com/photos/?client_id=PFArrh-ILrPosvCml41PMDEjSl
 
 
 /* Access key PFArrh-ILrPosvCml41PMDEjSlXGjJdpvjHPH76OLxA */
-
 
 
