@@ -4,7 +4,7 @@ body {
     width: auto;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-size: 2.5rem;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -229,6 +229,17 @@ margin: 30px;
 padding: 30px;
 }
 
+
+/* Photo of the Day API */
+
+.photo-api-container {
+   
+}
+
+img {
+    width: 350px;
+    display: inline-block;
+}
 
 
 @media screen and (max-width: 768px) {
