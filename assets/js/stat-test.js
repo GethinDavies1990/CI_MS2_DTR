@@ -59,18 +59,11 @@ $.ajax(settings).done(function leagueData (league) {
 
       //  Loops through the teams and outputs their current form to the console
       var teamForm = league.response[0].league.standings[0][i].form;
-      console.log(teamForm)
+      // console.log(teamForm)
 
 
-
-
-
-
-
-
-
-
-
+      //  inputs League standings data into a HTML table
+      $("#standings-table tbody").append("<tr><td>"+ teamRank+ "</td><td>" + "<img src='" + teamLogo + "'>" + teamName + "</td><td>"+ matchesPlayed + "</td><td>"+ teamWins + "</td><td>"+ teamDraw + "</td><td>"+ teamLoss + "</td><td>"+ teamGoalsFor + "</td><td>"+ teamGoalsAgainst + "</td><td>"+ teamGoalDifference + "</td><td>"+ teamPoints + "</td><td>"+ teamForm + "</td></tr>");
 
     }
   });
