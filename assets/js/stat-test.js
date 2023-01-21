@@ -43,23 +43,23 @@ $.ajax(settings).done(function leagueData (league) {
 
       //  Loops through the teams and outputs their goals for tally to the console
       var teamGoalsFor = league.response[0].league.standings[0][i].all.goals.for;
-      console.log(teamGoalsFor)
+      // console.log(teamGoalsFor)
 
-      // //  Loops through the teams and outputs their win tally to the console
-      // var teamGoalsAgainst = league.response[0].league.standings[0][i].all.played;
-      // // console.log(matchesPlayed)
+      //  Loops through the teams and outputs their goals against tally to the console
+      var teamGoalsAgainst = league.response[0].league.standings[0][i].all.goals.against;
+      // console.log(teamGoalsAgainst)
 
-      // //  Loops through the teams and outputs their win tally to the console
-      // var teamGoalDifference = league.response[0].league.standings[0][i].all.played;
-      // // console.log(matchesPlayed)
+      //  Loops through the teams and outputs their goals diff tally to the console
+      var teamGoalDifference = league.response[0].league.standings[0][i].goalsDiff;
+      // console.log(teamGoalDifference)
 
-      // //  Loops through the teams and outputs their win tally to the console
-      // var teamPoints = league.response[0].league.standings[0][i].all.played;
-      // // console.log(matchesPlayed)
+      //  Loops through the teams and outputs their points tally to the console
+      var teamPoints = league.response[0].league.standings[0][i].points;
+      // console.log(teamPoints)
 
-      // //  Loops through the teams and outputs their win tally to the console
-      // var teamForm = league.response[0].league.standings[0][i].all.played;
-      // // console.log(matchesPlayed)
+      //  Loops through the teams and outputs their current form to the console
+      var teamForm = league.response[0].league.standings[0][i].form;
+      console.log(teamForm)
 
 
 
