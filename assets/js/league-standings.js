@@ -9,7 +9,7 @@ var settings = {
   },
 };
 
-// Gets the team names using the getJSON method in jQuery  
+// Gets the team data using the getJSON method in jQuery  
 $.ajax(settings).done(function leagueData (league) {
     var standingsLength = league.response[0].league.standings[0].length
     for (var i = 0; i < standingsLength; i++) {
