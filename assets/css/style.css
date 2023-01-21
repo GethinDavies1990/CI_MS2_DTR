@@ -210,36 +210,13 @@ h1, h2, h3, h4 {
     background: #68BB59;
 }
 
-/* Stat Tracker */
+/* Score Tracker api table */
 
-#league-standing-container {
-    margin: 30px auto;
-    justify-content: center;
-    background-color: #fff;
-}
-
-#standing-data {
-    width: 800px;
-    display:grid;
-    text-align: center;
-}
-
-#standing-data th {
-margin: 30px;
-padding: 30px;
+.team-logo {
+    height: 30px;
 }
 
 
-/* Photo of the Day API */
-
-.photo-api-container {
-   
-}
-
-img {
-    width: 350px;
-    display: inline-block;
-}
 
 
 @media screen and (max-width: 768px) {
