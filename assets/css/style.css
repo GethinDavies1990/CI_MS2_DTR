@@ -212,8 +212,32 @@ h1, h2, h3, h4 {
 
 /* Score Tracker api table */
 
+#standings-table {
+    background-color: #fff;
+    margin: 30px auto;
+    padding: 30px;
+    width: 80%;
+    min-width: 30%;
+    border-radius: 7px;
+}
+
+th {
+    font-size: 1rem;
+    padding: 5px;
+    background-color: #111;
+    color: #fff;
+}
+
+td {
+    font-size: 1rem;
+    padding: 5px;
+}
+
+
 .team-logo {
     height: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
 }
 
 
