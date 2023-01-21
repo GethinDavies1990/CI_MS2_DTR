@@ -1,3 +1,4 @@
+// API used to bring in the latest standings for the premier league, the api is limited to 100 requests a day
 var settings = {
   url: "https://v3.football.api-sports.io/standings?league=39&season=2022",
   method: "GET",

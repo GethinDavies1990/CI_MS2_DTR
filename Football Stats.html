@@ -38,17 +38,59 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
                         <a class="nav-link" href="index.html">Home</a>
-                        <a class="nav-link active" aria-current="page" href="stat-tracker.html">Score Tracker</a>
+                        <a class="nav-link active" aria-current="page" href="Football Stats.html">Stats</a>
                         <a class="nav-link" href="quiz.html">Quiz</a>
                     </div>
                 </div>
             </div>
         </nav>
-
+<!-- Premier League live standings, API used for API-SPORTS -->
         <section>
-            <div class="photo-api-container container-fluid">
-                </div>
+            <h2 class="score-tracker-heading">Premier League Standings</h2>
+            <div class="standings-container">
+                <table id="standings-table">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Team</th>
+                            <th>MP</th>
+                            <th>W</th>
+                            <th>D</th>
+                            <th>L</th>
+                            <th>GF</th>
+                            <th>GA</th>
+                            <th>GD</th>
+                            <th>Pts</th>
+                            <th>Last 5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
             </div>
+
+            <div class="standings-container">
+                <table id="standings-table">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Team</th>
+                            <th>MP</th>
+                            <th>W</th>
+                            <th>D</th>
+                            <th>L</th>
+                            <th>GF</th>
+                            <th>GA</th>
+                            <th>GD</th>
+                            <th>Pts</th>
+                            <th>Last 5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            
         </section>
         <footer>
             <div class="social-container">
@@ -72,7 +114,8 @@
                 <span class="sr-only">TikTok</span>
             </div>
         </footer>
-        <script src="assets/js/photo-api.js"></script>
+        <script src="assets/js/league-standings.js"></script>
+
     </body>
 
 </html>
