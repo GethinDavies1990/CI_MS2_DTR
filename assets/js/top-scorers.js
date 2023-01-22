@@ -23,7 +23,7 @@ $.ajax(settings2).done(function scorereData(topScorer) {
     // console.log(playerName);
 
     // loops through player and outputs their clubs logo
-    var clubName = players[i].statistics[0].team.logo;
+    var teamLogo = players[i].statistics[0].team.logo;
     // console.log(clubName);
 
     // loops through player and outputs their goal tally
@@ -33,6 +33,10 @@ $.ajax(settings2).done(function scorereData(topScorer) {
     // loops through player and outputs their goal tally
     var playerAssists = players[i].statistics[0].goals.assists;
     // console.log(playerAssists);
+
+
+    $("#scorer-table tbody").append(`<tr><td><img class='player-photo' src='${playerPhoto}'></td><td>${playerName}</td><td><img class='team-logo' src='${teamLogo}'></td><td>${playerGoal}</td><td>${playerAssists}</td></tr>`);
+
 
   }
 });
