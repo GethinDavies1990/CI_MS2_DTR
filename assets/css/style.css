@@ -210,15 +210,19 @@ h1, h2, h3, h4 {
     background: #68BB59;
 }
 
-/* Score Tracker api table */
+/* Score Tracker/Top scorer api table */
 
-.score-tracker-heading {
+.stat-heading {
     font-size: 2.rem;
     text-align: center;
     padding: 30px;
 }
 
-#standings-table {
+.stat-card {
+    display: inline-block;
+}
+
+#standings-table, #scorer-table {
     background-color: #fff;
     margin: 30px auto;
     padding: 30px;
@@ -241,7 +245,13 @@ td {
 
 
 .team-logo {
-    height: 40px;
+    height: 50px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.player-photo {
+    height: 50px;
     padding-right: 30px;
     padding-bottom: 10px;
 }

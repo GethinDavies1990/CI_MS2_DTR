@@ -35,7 +35,7 @@ $.ajax(settings2).done(function scorereData(topScorer) {
     // console.log(playerAssists);
 
 
-    $("#scorer-table tbody").append(`<tr><td><img class='player-photo' src='${playerPhoto}'></td><td>${playerName}</td><td><img class='team-logo' src='${teamLogo}'></td><td>${playerGoal}</td><td>${playerAssists}</td></tr>`);
+    $("#scorer-table tbody").append(`<tr><td><img class='player-photo' src='${playerPhoto}'> ${playerName}</td><td><img class='team-logo' src='${teamLogo}'></td><td>${playerGoal}</td><td>${playerAssists}</td></tr>`);
 
 
   }
