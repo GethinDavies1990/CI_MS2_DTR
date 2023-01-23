@@ -263,4 +263,8 @@ td {
     .choice-container {
         min-width: 40rem;
     }
+
+    .stat-card {
+        display: block;
+    }
 }
