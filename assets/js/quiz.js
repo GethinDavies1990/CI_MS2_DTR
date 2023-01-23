@@ -5,6 +5,12 @@ const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 const correctText = document.getElementById('correct-text');
 const incorrectText = document.getElementById('incorrect-text');
+const questionIndex = document.getElementById('question-index');
+const progressBar = document.getElementById('progress-bar')
+const scoreText = document.getElementById('score')
+
+let score = 0;
+
 
 let shuffledQuestions, currentQuestionIndex
 
@@ -25,6 +31,9 @@ function startGame() {
 
 function setNextQuestion() {
     resetState()
+    correctText.classList.add('hide');
+    incorrectText.classList.add('hide');
+    questionIndex.innerText = `Question ${currentQuestionIndex + 1} of ${shuffledQuestions.length}`;
     showQuestion(shuffledQuestions[currentQuestionIndex])
 }
 
@@ -63,6 +72,8 @@ function selectAnswer(e) {
         correctText.innerText = 'Hey Well Done, That is Correct';
         correctText.classList.remove('hide');
         incorrectText.classList.add('hide');
+        score += 10;
+        scoreText.innerText = score;
     } else {
         incorrectText.innerText = 'Ahh, hard lines. That is incorrect';
         incorrectText.classList.remove('hide');
