@@ -3,6 +3,8 @@ const nextButton = document.getElementById('next-btn');
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
+const correctText = document.getElementById('correct-text');
+const incorrectText = document.getElementById('incorrect-text');
 
 let shuffledQuestions, currentQuestionIndex
 
@@ -12,6 +14,7 @@ nextButton.addEventListener('click', () => {
     setNextQuestion()
 })
 
+// Function made to begin the game, will rest the question index to zero and set the next question 
 function startGame() {
     startButton.classList.add('hide')
     shuffledQuestions = questions.sort(() => Math.random() - .5)
@@ -40,6 +43,7 @@ function showQuestion(question) {
 }
 
 function resetState() {
+    clearStatusClass(document.body)
     nextButton.classList.add('hide')
     while (answerButtonsElement.firstChild) {
         answerButtonsElement.removeChild
@@ -49,19 +53,28 @@ function resetState() {
 
 
 function selectAnswer(e) {
-    const selectedButton = e.target
-    const correct = selectedButton.dataset.correct
-    setStatusClass(document.body, correct)
+    const selectedButton = e.target;
+    const correct = selectedButton.dataset.correct;
+    setStatusClass(document.body, correct);
     Array.from(answerButtonsElement.children).forEach(button => {
-        setStatusClass(button, button.dataset.correct)
-    })
-    if (shuffledQuestions.length > currentQuestionIndex + 1) {
-        nextButton.classList.remove('hide')
+        setStatusClass(button, button.dataset.correct);
+    });
+    if (correct) {
+        correctText.innerText = 'Hey Well Done, That is Correct';
+        correctText.classList.remove('hide');
+        incorrectText.classList.add('hide');
     } else {
-        startButton.innerText = 'Restart'
-        startButton.classList.remove('hide')
+        incorrectText.innerText = 'Ahh, hard lines. That is incorrect';
+        incorrectText.classList.remove('hide');
+        correctText.classList.add('hide');
     }
-    nextButton.classList.remove('hide')
+    if (shuffledQuestions.length > currentQuestionIndex + 1) {
+        nextButton.classList.remove('hide');
+    } else {
+        startButton.innerText = 'Restart';
+        startButton.classList.remove('hide');
+    }
+    nextButton.classList.remove('hide');
 }
 
 function setStatusClass(element, correct) {
@@ -76,6 +89,8 @@ function setStatusClass(element, correct) {
 function clearStatusClass(element) {
     element.classList.remove('body-correct')
     element.classList.remove('body-wrong')
+    correctText.classList.add('hide');
+    incorrectText.classList.add('hide');
 }
 
 const questions = [

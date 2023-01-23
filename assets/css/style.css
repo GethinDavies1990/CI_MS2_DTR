@@ -147,6 +147,12 @@ h1, h2, h3, h4 {
     display: none;
 }
 
+
+.quiz-prompt {
+    text-align: center;
+    padding-top: 50px;
+}
+
 /* Score Tracker/Top scorer api table */
 
 .stat-heading {
