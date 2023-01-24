@@ -40,16 +40,16 @@
     <div id="error"></div>
     <form action="/" method="GET" class="form">
         <div>
-            <label for="full-name">Full Name</label>
+            <label id="fullName" for="full-name">Full Name</label>
             <input type="text" placeholder="John Doe" required>
         </div>
         <div>
             <label for="email">Email Address</label>
-            <input type="email" placeholder="John@hotmail.co.uk" required>
+            <input type="email" id="email_id" placeholder="John@hotmail.co.uk" required>
         </div>
         <div>
-            <textarea placeholder="We would love some feedback from you." required></textarea>
-            <button class="form-button">Send</button>
+            <textarea id="message" placeholder="We would love some feedback from you." required></textarea>
+            <button  onclick="SendMail()" class="form-button">Send</button>
         </div>
     </form>
     
