@@ -229,7 +229,7 @@ td {
     font-size: 1.5rem;
 }
 
-input, textarea, .form-button {
+input, textarea, .submit {
     margin: 4px 0;
     padding: 8px;
     border-radius: 5px;

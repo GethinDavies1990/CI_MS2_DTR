@@ -24,6 +24,8 @@
         <!--Jquery-->
         <script src="https://code.jquery.com/jquery-3.6.3.js"
             integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+            <!-- Sweet Alert -->
+            <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
             <!-- Scripts -->
             <script defer src="assets/js/form.js"></script>
             <script type="text/javascript"
@@ -38,7 +40,7 @@
 </head>
 <body>
     <div id="error"></div>
-    <form action="/" method="GET" class="form">
+    <form action="/" method="POST" class="form">
         <div>
             <label id="fullName" for="full-name">Full Name</label>
             <input type="text" placeholder="John Doe" required>
@@ -49,7 +51,7 @@
         </div>
         <div>
             <textarea id="message" placeholder="We would love some feedback from you." required></textarea>
-            <button  onclick="SendMail()" class="form-button">Send</button>
+            <button name="submit" id="contact-submit" data-submit="...Sending" class="submit">Submit</button>
         </div>
     </form>
     
