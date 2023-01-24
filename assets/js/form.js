@@ -1,14 +1,32 @@
 
-function SendMail() {
-    var params = {
-        from_name: document.getElementById('fullName').value,
-        email_id : document.getElementById('email_id').value,
-        message : document.getElementById('message').value
-    }
-    emailjs.send("service_b38lf6p", "template_a8llwvu", params).then(function(res) {
-        alert("Success!" + res.status);
-    })
+function validate() {
+        var name = document.querySelector("#name")
+        var email = document.querySelector("#email")
+        var message = document.querySelector("#message")
+        var submit = document.querySelector("#submit")
+
+        submit.addEventListener('click', (e) => {
+            e.preventDefault()
+
+            if (name.value == "" || email.value == "" || message.value == "") {
+                inputEmpty();
+            } else {
+                sendMail(name.value, email.value, message.value)
+                success();
+                console.log('email sent')
+                }
+            })
+        }
+    
+function sendMail(name, email, message) {
+    emailjs.send("service_b38lf6p","template_a8llwvu",{
+        from_name: name,
+        email_id: email,
+        message: message,
+        });
+
 }
+
 
 // Sweet Alert functions
 
