@@ -1,5 +1,5 @@
 function validate() {
-    let name = document.querySelector(".username");
+    let name = document.querySelector(".name");
     let email = document.querySelector(".email");
     let msg = document.querySelector(".message");
     let btn = document.querySelector(".submit");
