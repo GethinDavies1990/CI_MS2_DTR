@@ -1,60 +1,57 @@
-
 function validate() {
-        var name = document.querySelector("#name")
-        var email = document.querySelector("#email")
-        var message = document.querySelector("#message")
-        var submit = document.querySelector("#submit")
+    let name = document.querySelector(".username");
+    let email = document.querySelector(".email");
+    let msg = document.querySelector(".message");
+    let btn = document.querySelector(".submit");
 
-        submit.addEventListener('click', (e) => {
-            e.preventDefault()
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      if (name.value == "" || email.value == "" || msg.value == "") {
+        emptyerror();
+      } else {
+        sendmail(name.value, email.value, msg.value);
+        success();
+      }
+    });
+  }
+  validate();
 
-            if (name.value == "" || email.value == "" || message.value == "") {
-                inputEmpty();
-            } else {
-                sendMail(name.value, email.value, message.value)
-                success();
-                console.log('email sent')
-                }
-            })
-        }
-    
-function sendMail(name, email, message) {
-    emailjs.send("service_b38lf6p","template_a8llwvu",{
-        from_name: name,
-        email_id: email,
-        message: message,
-        });
+  function sendmail(name, email, msg) {
+    emailjs.send("service_b38lf6p", "template_a8llwvu", {
+      to_name: "your recipient name",
+      from_name: email,
+      message: msg,
+    });
+  }
 
-}
+// Sweet Alert library used to display feedback on form submission
 
+// Function called if fields are empty and a submit is attempted
 
-// Sweet Alert functions
-
-function success() {
+  function emptyerror() {
     swal({
-        title: "Got it!",
-        text: "Thanks for your Message",
-        icon: "success",
-        button: "OK!",
-      });
-}
+      icon: "error",
+      title: "Oops...",
+      text: "Fields cannot be empty!",
+    });
+  }
 
-function error() {
+//  function called if something is wrong, i.e the cdn for the emailjs library doesn't load
+
+  function error() {
     swal({
-        title: "Hmm",
-        text: "Something went wrong, message could not be sent!",
-        icon: "error",
-        button: "OK!",
-      });
-}
+      icon: "error",
+      title: "Oops...",
+      text: "Something went wrong!",
+    });
+  }
 
-function inputEmpty() {
+//   function called if the submit button is successful 
+
+  function success() {
     swal({
-        title: "oops...!",
-        text: "Input fields are required",
-        icon: "error",
-        button: "OK!",
-      });
-}
-
-
+      icon: "success",
+      title: "Success...",
+      text: "Successfully sent message",
+    });
+  }
