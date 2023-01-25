@@ -1,7 +1,7 @@
 function validate() {
-    let name = document.querySelector(".name");
-    let email = document.querySelector(".email");
-    let msg = document.querySelector(".message");
+    let name = document.querySelector("#name");
+    let email = document.querySelector("#email");
+    let msg = document.querySelector("#message");
     let btn = document.querySelector(".submit");
 
     btn.addEventListener("click", (e) => {
@@ -18,8 +18,8 @@ function validate() {
 
   function sendmail(name, email, msg) {
     emailjs.send("service_b38lf6p", "template_a8llwvu", {
-      to_name: "your recipient name",
-      from_name: email,
+      name: name,
+      email: email,
       message: msg,
     });
   }
