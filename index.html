@@ -22,6 +22,14 @@
         <!--Jquery-->
         <script src="https://code.jquery.com/jquery-3.6.3.js"
             integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+        <!-- EmailJS -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function () {
+                emailjs.init("ga5PLTovBmNLpTpJO");
+            })();
+        </script>
         <title>Home</title>
     </head>
 
@@ -77,6 +85,20 @@
                     aria-label="Link to our TikTok page (opens in a new tab)"><i class="socials fa-brands fa-tiktok"
                         aria-hidden="true"></i></a>
                 <span class="sr-only">TikTok</span>
+            </div>
+            <div class="form-container">
+                <form id="contact" method="post">
+                    <h3>Subscribe to our newsletter!</h3>
+                    <fieldset>
+                        <input placeholder="Your Email Address" type="email" tabindex="2" required id="email"
+                            class="input" />
+                    </fieldset>
+                    <fieldset>
+                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" class="submit">
+                            Submit
+                        </button>
+                    </fieldset>
+                </form>
             </div>
         </footer>
 
