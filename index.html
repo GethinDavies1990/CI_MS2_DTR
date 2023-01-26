@@ -22,6 +22,10 @@
         <!--Jquery-->
         <script src="https://code.jquery.com/jquery-3.6.3.js"
             integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+            <!-- Sweet Alert -->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+            <!-- Scripts -->
+            <script defer src="assets/js/subscribe.js"></script>
         <!-- EmailJS -->
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
         </script>
@@ -90,11 +94,11 @@
                 <form id="contact" method="post">
                     <h3>Subscribe to our newsletter!</h3>
                     <fieldset>
-                        <input placeholder="Your Email Address" type="email" tabindex="2" required id="email"
+                        <input placeholder="Your Email Address" type="email" tabindex="2" required id="subscribe-email"
                             class="input" />
                     </fieldset>
                     <fieldset>
-                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" class="submit">
+                        <button name="subscribe-submit" type="submit" id="subscribe-submit" data-submit="...Sending" class="submit">
                             Submit
                         </button>
                     </fieldset>
