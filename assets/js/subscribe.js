@@ -1,3 +1,5 @@
+// Subsribe email function, if a user inputs their email address into the subscribe-box they will get added to our contact list
+
 function validate() {
     let subscribeEmail = document.getElementById("subscribe-email");
     let subscribeSubmit = document.getElementById("subscribe-submit");
@@ -16,7 +18,7 @@ function validate() {
 
   function sendmail(email) {
     emailjs.send("service_qknmyza", "template_yfl3t0n", {
-      email: email,
+      "subscribe-email": email,
     });
   }
 
