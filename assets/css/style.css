@@ -101,6 +101,7 @@ h1, h2, h3, h4 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .start-btn button {
@@ -118,7 +119,9 @@ h1, h2, h3, h4 {
     width: 540px;
     background: #fff;
     border-radius: 5px;
-    display: none;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(0.9);
 }
 
 .info-box .info-title {
@@ -193,6 +196,9 @@ h1, h2, h3, h4 {
     width: 550px;
     background: #fff;
     border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(0.9);
 }
 
 .quiz-box header {
@@ -356,6 +362,9 @@ footer .next-btn:hover {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(0.9);
 }
 
 .result-box .icon {
