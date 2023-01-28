@@ -31,74 +31,24 @@
     </head>
 
     <body>
-        <!--Navbar built with bootstrap-->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand logo" href="/index.html">LoveSports!</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ms-auto">
-                        <a class="nav-link" href="index.html">Home</a>
-                        <a class="nav-link" href="Football Stats.html">Stats</a>
-                        <a class="nav-link active" href="quiz.html">Quiz</a>
-                        <a class="nav-link" href="form.html">Contact</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-
         <section>
-            <h2 id="correct-text" class="hide quiz-prompt"></h2>
-            <h2 id="incorrect-text" class="hide quiz-prompt"></h2>
-            <h2 id="question-index"></h2>
-            <div id="progress-bar"></div>
-            <h2 id="score-header">Score out of 100</h2>
-            <div id="score"></div>
-            <div class="quiz-body">
-                <div class="quiz-container">
-                    <div id="question-container" class="hide">
-                        <div id="question">Question</div>
-                        <div id="answer-buttons" class="btn-grid">
-                            <button class="btn">Answer 1</button>
-                            <button class="btn">Answer 2</button>
-                            <button class="btn">Answer 3</button>
-                            <button class="btn">Answer 4</button>
-                        </div>
-                    </div>
-                    <div class="controls">
-                        <button id="start-btn" class="start-btn btn">Start</button>
-                        <button id="next-btn" class="next-btn btn hide">Next</button>
-                    </div>
+            <!-- Start Quiz Button -->
+            <div class="start-btn">
+                <button>Start Quiz</button>
+            </div>
+            <div class="info-box">
+                <div class="info-title">
+                    <span>Some Rules of this Quiz</span>
+                </div>
+                <div class="info-list">
+                    <div class="info">Yo will have only <span>15 seconds</span> per question.</div>
+                    <div class="info">Once you select your answer, you cannot change your choice</div>
+                    <div class="info">You cannot select an option once the timer has ended</div>
+                    <div class="info">You cannot exit from the quiz while playing</div>
+                    <div class="info">You will get rewarded points for every correct answer.</div>
                 </div>
             </div>
         </section>
-        <footer>
-            <div class="social-container">
-                <h3>Keep up to date with everything LoveSport! <related class=""></related>
-                </h3>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Link to our Facebook page (opens in a new tab)"><i
-                        class="socials fa-brands fa-facebook-f" aria-hidden="true"></i></a>
-                <span class="sr-only">Facebook</span>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Link to our Instagram page (opens in a new tab)"><i
-                        class="socials fa-brands fa-instagram" aria-hidden="true"></i></a>
-                <span class="sr-only">Instagram</span>
-                <a href="https://twitter.com/?lang=en" target="_blank" rel="noopener"
-                    aria-label="Link to our Twitter page (opens in a new tab)"><i class="socials fa-brands fa-twitter"
-                        aria-hidden="true"></i></a>
-                <span class="sr-only">Twitter</span>
-                <a href="https://www.tiktok.com/en/" target="_blank" rel="noopener"
-                    aria-label="Link to our TikTok page (opens in a new tab)"><i class="socials fa-brands fa-tiktok"
-                        aria-hidden="true"></i></a>
-                <span class="sr-only">TikTok</span>
-            </div>
-            
-        </footer>
 
     </body>
 
