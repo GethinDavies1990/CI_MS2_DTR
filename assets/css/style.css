@@ -248,7 +248,61 @@ h1, h2, h3, h4 {
     padding: 25px 30px 20px 30px;
 }
 
+.quiz-box section .que-text {
+    font-size: 25px;
+    font-weight: 500;
+}
 
+.quiz-box section .option-list {
+    padding: 20px 0;
+    display: block;
+}
+
+section .option-list .option {
+    background: #e0e0e0;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+section .option-list .option:hover {
+    color: #111;
+    background-color: darkgray;
+    border-color: #111;
+}
+
+.option-list .option:last-child {
+    margin-bottom: 0px;
+}
+
+.option-list .option .icon {
+height: 26px;
+width: 26px;
+border: 2px solid transparent;
+border-radius: 50%;
+text-align: center;
+font-size: 13px;
+line-height: 24px;
+pointer-events: none;
+}
+
+.option-list .option .icon.tick {
+    border-color: #50C878;
+    color: #50C878;
+    background: #fff;
+}
+
+.option-list .option .icon.cross {
+    border-color: #EF233C;
+    color: #EF233C;
+    background: #fff;
+}
 
 /* Score Tracker/Top scorer api table */
 
