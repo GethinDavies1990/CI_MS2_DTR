@@ -153,6 +153,43 @@ h1, h2, h3, h4 {
     padding: 0 35px;
     border-top: 1px solid #e0e0e0;
 }
+
+.info-box .buttons button {
+    margin: 0 5px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid #EF233C;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttons button.restart {
+    color: #fff;
+    border-color: #EF233C;
+    background-color: #EF233C;
+}
+
+.buttons button.restart:hover {
+    background-color: #50C878;
+}
+
+.buttons button.quit {
+    color: #EF233C;
+    border-color: #EF233C;
+}
+
+.buttons button.quit:hover {
+    color: #fff;
+    background-color: #111;
+}
+
+
+
+
 /* Score Tracker/Top scorer api table */
 
 .stat-heading {
