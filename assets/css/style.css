@@ -131,6 +131,28 @@ h1, h2, h3, h4 {
     font-weight: 500;
 }
 
+.info-box .info-list {
+    padding: 15px 35px;
+}
+
+.info-box .info-list .info {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.info-box .info-list .info span {
+    font-weight: 600;
+    color: #EF233C;
+}
+
+.info-box .buttons {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 35px;
+    border-top: 1px solid #e0e0e0;
+}
 /* Score Tracker/Top scorer api table */
 
 .stat-heading {
