@@ -34,13 +34,13 @@ nextBtn.onclick = () => {
 // Gets questions and options from the array
 
 function showQuestions(index) {
-    const queText = document.querySelector("que-text");
-    const optionList = document.querySelector("option-list");
+    const queText = document.querySelector(".que-text");
+    const optionList = document.querySelector(".option-list");
     let queTag = '<span>'+ questions[index].question +'</span>';
-    let optionTag = '<div class="option">'+ questions[0].options[0] +'<span></span></div>'
-                    + '<div class="option">'+ questions[1].options[1] +'<span></span></div>'
-                    + '<div class="option">'+ questions[2].options[2] +'<span></span></div>'
-                    + '<div class="option">'+ questions[3].options[3] +'<span></span></div>'
+    let optionTag =   '<div class="option">'+ questions[index].options[0] +'<span></span></div>'
+                    + '<div class="option">'+ questions[index].options[1] +'<span></span></div>'
+                    + '<div class="option">'+ questions[index].options[2] +'<span></span></div>'
+                    + '<div class="option">'+ questions[index].options[3] +'<span></span></div>'
     queText.innerHTML = queTag;
     optionList.innerHTML = optionTag;
 }
