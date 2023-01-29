@@ -102,10 +102,11 @@ h1, h2, h3, h4 {
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
 }
 
 .info-box.activeInfo,
-.quiz-box.activeQuiz{
+.quiz-box.activeQuiz {
     z-index: 5;
     opacity: 1;
     pointer-events: auto;
@@ -202,7 +203,6 @@ h1, h2, h3, h4 {
 }
 
 .quiz-box {
-    display: none;
     width: 550px;
     background: #fff;
     border-radius: 5px;
