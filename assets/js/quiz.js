@@ -3,8 +3,19 @@ const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
+const questionCounterElement = document.getElementById('question-counter')
+const currentQuestionElement = document.getElementById('current-question')
+const totalQuestionsElement = document.getElementById('total-questions')
+const scoreCounterElement = document.getElementById('score-counter')
+const currentScoreElement = document.getElementById('current-score')
+const scoreDisplay = document.createElement('div')
+
+scoreDisplay.id = 'score-display'
+scoreDisplay.classList.add('hide')
+document.querySelector('.quiz-header').appendChild(scoreDisplay)
 
 let shuffledQuestions, currentQuestionIndex
+let score = 0
 
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
@@ -14,6 +25,8 @@ nextButton.addEventListener('click', () => {
 
 function startGame() {
   startButton.classList.add('hide')
+  questionCounterElement.classList.remove('hide')
+  scoreCounterElement.classList.remove('hide')
   shuffledQuestions = questions.sort(() => Math.random() - .5)
   currentQuestionIndex = 0
   questionContainerElement.classList.remove('hide')
@@ -23,6 +36,8 @@ function startGame() {
 function setNextQuestion() {
   resetState()
   showQuestion(shuffledQuestions[currentQuestionIndex])
+  currentQuestionElement.innerText = currentQuestionIndex + 1
+  totalQuestionsElement.innerText = shuffledQuestions.length
 }
 
 function showQuestion(question) {
@@ -45,6 +60,8 @@ function resetState() {
   while (answerButtonsElement.firstChild) {
     answerButtonsElement.removeChild(answerButtonsElement.firstChild)
   }
+  scoreDisplay.innerText = ''
+  scoreDisplay.classList.add('hide')
 }
 
 function selectAnswer(e) {
@@ -54,11 +71,19 @@ function selectAnswer(e) {
   Array.from(answerButtonsElement.children).forEach(button => {
     setStatusClass(button, button.dataset.correct)
   })
+  if (correct) {
+    score += 100
+    scoreDisplay.innerText = 'Correct!'
+  } else {
+    scoreDisplay.innerText = 'Wrong!'
+  }
+  scoreDisplay.classList.remove('hide')
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
   } else {
     startButton.innerText = 'Restart'
     startButton.classList.remove('hide')
+    alert(`Your final score is: ${score}`)
   }
 }
 
