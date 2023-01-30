@@ -8,11 +8,8 @@ const currentQuestionElement = document.getElementById('current-question')
 const totalQuestionsElement = document.getElementById('total-questions')
 const scoreCounterElement = document.getElementById('score-counter')
 const currentScoreElement = document.getElementById('current-score')
-const scoreDisplay = document.createElement('div')
+const answerFeedback = document.getElementById('answer-feedback')
 
-scoreDisplay.id = 'score-display'
-scoreDisplay.classList.add('hide')
-document.querySelector('.quiz-header').appendChild(scoreDisplay)
 
 let shuffledQuestions, currentQuestionIndex
 let score = 0
@@ -60,8 +57,8 @@ function resetState() {
   while (answerButtonsElement.firstChild) {
     answerButtonsElement.removeChild(answerButtonsElement.firstChild)
   }
-  scoreDisplay.innerText = ''
-  scoreDisplay.classList.add('hide')
+  answerFeedback.innerText = ''
+  answerFeedback.classList.add('hide')
 }
 
 function selectAnswer(e) {
@@ -73,11 +70,15 @@ function selectAnswer(e) {
   })
   if (correct) {
     score += 100
-    scoreDisplay.innerText = 'Correct!'
+    answerFeedback.innerText = 'Correct!'
+    answerFeedback.style.color = '#23903c'
+    answerFeedback.style.fontSize = '20px'
   } else {
-    scoreDisplay.innerText = 'Wrong!'
+    answerFeedback.innerText = 'Wrong!'
+    answerFeedback.style.color = '#EF233C'
+    answerFeedback.style.fontSize = '20px'
   }
-  scoreDisplay.classList.remove('hide')
+  answerFeedback.classList.remove('hide')
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
   } else {

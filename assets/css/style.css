@@ -89,6 +89,12 @@ h1, h2, h3, h4 {
 }
 /* Quiz Game */
 
+.quiz-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .quiz-body {
     padding: 0;
     margin: 0;
@@ -110,6 +116,8 @@ h1, h2, h3, h4 {
     color: #23903c;
     font-weight: 700;
 }
+
+
 
 .quiz-container {
     width: 800px;
