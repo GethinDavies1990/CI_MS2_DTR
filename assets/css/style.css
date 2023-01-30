@@ -130,6 +130,14 @@ h1, h2, h3, h4 {
     border-color: #111;
 }
 
+.next-btn:hover {
+    border-color: #111;
+}
+
+.start-btn:hover {
+    border-color: #111;
+}
+
 .btn.correct {
     background-color: #50C878;
     border-color: #23903c;
@@ -152,11 +160,13 @@ h1, h2, h3, h4 {
     background-color: #e0e0e0;
     cursor: pointer;
     width: 30%;
+    border-width: 2px;
 }
+
 
 .controls {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
