@@ -4,3 +4,11 @@ $(function() {
       $(".quiz-rules").slideToggle();
     });
   });
+
+  var typed = new Typed(".typing-effect", {
+    strings: ["Hey There, Welcome to LoveSports", 
+    "The No.1 place to keep up to date with everything sport related"],
+    typeSpeed: 50,
+    backSpeed: 50,
+    loop: true,
+});
