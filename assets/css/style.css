@@ -39,30 +39,41 @@ h1, h2, h3, h4 {
     margin-right: 50px;
 }
 
-.hero-container {
-    width: 100vw;
-    
-}
+
 #image-wrapper {
     background: url("../images/hero.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 70vh;
     position: relative;
     width: 70%;
     margin: 10px auto;
     padding-top: 30px;
     border-radius: 5px;
-    
+
+}
+
+#image-wrapper::before {
+    content: "";
+    background-color: rgba(211, 51, 51, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    border-radius: 10px;
 }
 
 #hero-box {
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: white;
-        padding: 10px;
-        text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: white;
+    text-align: center;
+    font-size: 25px;
 }
 
 .homepage-about {
