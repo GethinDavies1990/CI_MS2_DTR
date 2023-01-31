@@ -10,6 +10,7 @@ const scoreCounterElement = document.getElementById('score-counter')
 const currentScoreElement = document.getElementById('current-score')
 const answerFeedback = document.getElementById('answer-feedback')
 const timerElement = document.getElementById('timer')
+const quizRules = document.getElementById('quiz-rules-container')
 
 let shuffledQuestions, currentQuestionIndex
 let score = 0
@@ -24,6 +25,7 @@ nextButton.addEventListener('click', () => {
 
 function startGame() {
   startButton.classList.add('hide')
+  quizRules.classList.add('hide')
   questionCounterElement.classList.remove('hide')
   scoreCounterElement.classList.remove('hide')
   shuffledQuestions = questions.sort(() => Math.random() - .5)

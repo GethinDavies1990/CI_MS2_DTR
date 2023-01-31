@@ -199,6 +199,18 @@ h1, h2, h3, h4 {
     border-radius: 5px;
 }
 
+.quiz-rules-container  h2{
+    color: #111;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.quiz-rules {
+    padding-bottom: 10px;
+    display: none;
+}
+
 /* Score Tracker/Top scorer api table */
 
 .stat-heading {
