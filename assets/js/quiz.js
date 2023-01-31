@@ -16,6 +16,8 @@ let shuffledQuestions, currentQuestionIndex
 let score = 0
 let timer;
 
+//  Initiates the start of the quiz
+// sets the first question, and starts the timer function
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++
@@ -23,6 +25,12 @@ nextButton.addEventListener('click', () => {
   startTimer()
 })
 
+// Hides the 'start Button' and 'rules'
+// question counter starts to come into work
+// removes the hide class from the question counter/score counter function
+// shuffles a new set of questions each time the game starts so the user wont have the same questions 1st, 2nd, 3rd... etc
+// Starts the timer
+// question is set
 function startGame() {
   startButton.classList.add('hide')
   quizRules.classList.add('hide')
@@ -35,6 +43,8 @@ function startGame() {
   setNextQuestion()
 }
 
+// function to give the user 15 seconds each question to answer
+// once time is up question cannot be answered
 function startTimer() {
   clearInterval(timer)
   let timeLeft = 15
@@ -52,6 +62,7 @@ function startTimer() {
   }, 1000)
 }
 
+//  sets the next question
 function setNextQuestion() {
   resetState()
   showQuestion(shuffledQuestions[currentQuestionIndex])
@@ -59,6 +70,7 @@ function setNextQuestion() {
   totalQuestionsElement.innerText = shuffledQuestions.length
 }
 
+//  Shows the question to the user
 function showQuestion(question) {
   questionElement.innerText = question.question
   question.answers.forEach(answer => {
@@ -73,6 +85,7 @@ function showQuestion(question) {
   })
 }
 
+// resets the class once 'Next' is clicked
 function resetState() {
   clearStatusClass(document.body)
   nextButton.classList.add('hide')
@@ -83,6 +96,10 @@ function resetState() {
   answerFeedback.classList.add('hide')
 }
 
+// function to determine the answer the user is selected.
+// prompts the user with some feedback wether they have answered correctly or incorrectly
+// some style is added to the answr feedback, green to notify of correct answer, red for wrong
+// increments correct scores by 100
 function selectAnswer(e) {
   const selectedButton = e.target
   const correct = selectedButton.dataset.correct
@@ -94,7 +111,7 @@ function selectAnswer(e) {
     score += 100
     scoreCounterElement.innerText = "Score: " + score;
     answerFeedback.innerText = 'Well Done! That is Correct!'
-    answerFeedback.style.backgroundColor = '#23903c'
+    answerFeedback.style.backgroundColor = '#50C878'
   } else {
     answerFeedback.innerText = 'Ahhh that is Wrong!'
     answerFeedback.style.backgroundColor = '#EF233C'
@@ -110,6 +127,7 @@ function selectAnswer(e) {
   }
 }
 
+// sets the correct or wrong class to the users answers
 function setStatusClass(element, correct) {
   clearStatusClass(element)
   if (correct) {
@@ -119,6 +137,7 @@ function setStatusClass(element, correct) {
   }
 }
 
+// clears all correct or wrong styling
 function clearStatusClass(element) {
   element.classList.remove('correct')
   element.classList.remove('wrong')

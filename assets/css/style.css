@@ -197,6 +197,7 @@ h1, h2, h3, h4 {
     color: #fff;
     margin: 10px auto;
     border-radius: 5px;
+    border-width: 5px;
 }
 
 .quiz-rules-container  h2{
@@ -204,6 +205,11 @@ h1, h2, h3, h4 {
     text-align: center;
     padding-bottom: 10px;
     font-size: 25px;
+    cursor: pointer;
+}
+
+.quiz-rules-container  h2:hover {
+    color: #23903c;
 }
 
 .quiz-rules {
