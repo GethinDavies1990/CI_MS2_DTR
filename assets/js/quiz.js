@@ -13,6 +13,7 @@ const answerFeedback = document.getElementById('answer-feedback')
 
 let shuffledQuestions, currentQuestionIndex
 let score = 0
+let timer;
 
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
@@ -70,13 +71,12 @@ function selectAnswer(e) {
   })
   if (correct) {
     score += 100
-    answerFeedback.innerText = 'Correct!'
-    answerFeedback.style.color = '#23903c'
-    answerFeedback.style.fontSize = '20px'
+    answerFeedback.innerText = 'Well Done! That is Correct!'
+    answerFeedback.style.backgroundColor = '#23903c'
   } else {
-    answerFeedback.innerText = 'Wrong!'
-    answerFeedback.style.color = '#EF233C'
-    answerFeedback.style.fontSize = '20px'
+    answerFeedback.innerText = 'Ahhh that is Wrong!'
+    answerFeedback.style.backgroundColor = '#EF233C'
+
   }
   answerFeedback.classList.remove('hide')
   if (shuffledQuestions.length > currentQuestionIndex + 1) {

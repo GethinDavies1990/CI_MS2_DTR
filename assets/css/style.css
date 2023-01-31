@@ -185,6 +185,14 @@ h1, h2, h3, h4 {
     display: none;
 }
 
+.answer-feedback {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    margin: 10px auto;
+    border-radius: 5px;
+}
 
 /* Score Tracker/Top scorer api table */
 
