@@ -105,16 +105,22 @@ h1, h2, h3, h4 {
     align-items: center;
 }
 
-.question-counter {
-    width: 50%;
-    background-color: #e0e0e0;
-    padding: 10px 10px;
-    border-radius: 5px;
+#question-counter {
+    text-align: right;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 500;
 }
 
 #top-score {
     color: #23903c;
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#score-counter {
+    font-weight: 500;
+    font-size: 20px;
 }
 
 
@@ -163,15 +169,14 @@ h1, h2, h3, h4 {
 }
 
 .start-btn, .next-btn {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     padding: 15px 15px;
     outline: none;
     border-radius: 5px;
     background-color: #e0e0e0;
     cursor: pointer;
-    width: 30%;
-    border-width: 2px;
+    width: 50%;
 }
 
 
@@ -188,7 +193,7 @@ h1, h2, h3, h4 {
 .answer-feedback {
     width: 100%;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     color: #fff;
     margin: 10px auto;
     border-radius: 5px;
@@ -324,5 +329,9 @@ td {
 
     td {
         font-size: 0.7rem;
+    }
+
+    .btn-grid {
+        grid-template-columns: repeat(1, auto);
     }
 }

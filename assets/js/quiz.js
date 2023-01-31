@@ -9,7 +9,7 @@ const totalQuestionsElement = document.getElementById('total-questions')
 const scoreCounterElement = document.getElementById('score-counter')
 const currentScoreElement = document.getElementById('current-score')
 const answerFeedback = document.getElementById('answer-feedback')
-
+const timerElement = document.getElementById('timer')
 
 let shuffledQuestions, currentQuestionIndex
 let score = 0
@@ -19,6 +19,7 @@ startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++
   setNextQuestion()
+  startTimer()
 })
 
 function startGame() {
@@ -28,7 +29,25 @@ function startGame() {
   shuffledQuestions = questions.sort(() => Math.random() - .5)
   currentQuestionIndex = 0
   questionContainerElement.classList.remove('hide')
+  startTimer()
   setNextQuestion()
+}
+
+function startTimer() {
+  clearInterval(timer)
+  let timeLeft = 15
+  timerElement.innerText = `Time left: ${timeLeft} seconds`
+  timer = setInterval(() => {
+    timeLeft--
+    timerElement.innerText = `Time left: ${timeLeft} seconds`
+    if (timeLeft === 0) {
+      clearInterval(timer)
+      answerFeedback.innerText = 'Time is up!'
+      answerFeedback.style.backgroundColor = '#EF233C'
+      answerFeedback.classList.remove('hide')
+      nextButton.classList.remove('hide')
+    }
+  }, 1000)
 }
 
 function setNextQuestion() {
@@ -71,6 +90,7 @@ function selectAnswer(e) {
   })
   if (correct) {
     score += 100
+    scoreCounterElement.innerText = "Score: " + score;
     answerFeedback.innerText = 'Well Done! That is Correct!'
     answerFeedback.style.backgroundColor = '#23903c'
   } else {
