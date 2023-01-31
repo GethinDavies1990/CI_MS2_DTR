@@ -76,6 +76,10 @@ h1, h2, h3, h4 {
     font-size: 25px;
 }
 
+.typing-effect {
+    font-size: 55px;
+    font-weight: 500;
+}
 
 .homepage-about {
     width: 1200px;
@@ -363,5 +367,9 @@ td {
 
     .btn-grid {
         grid-template-columns: repeat(1, auto);
+    }
+
+    .typing-effect {
+        font-size: 35px;
     }
 }
