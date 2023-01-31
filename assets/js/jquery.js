@@ -7,7 +7,7 @@ $(function() {
 
 //   Jquery plugin to use a typing effect on the hero box text
   var typed = new Typed(".typing-effect", {
-    strings: ["Hey There!<br>Welcome to LoveSports!", 
+    strings: ["Welcome to LoveSports!", 
     "The No.1 place to keep up to date with everything<br>sport's related"],
     typeSpeed: 70,
     backSpeed: 70,
