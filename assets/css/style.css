@@ -39,6 +39,25 @@ h1, h2, h3, h4 {
     margin-right: 50px;
 }
 
+.cta-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+.cta-text {
+    font-size: 20px;
+    color: #fff;
+    text-align: center; 
+    margin: 10px auto;
+}
+
+i {
+    color: #50C878;
+    padding-left: 10px;
+}
+
 
 #image-wrapper {
     background: url("../images/hero.webp");
