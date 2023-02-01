@@ -180,7 +180,7 @@ i {
     background-color: #e0e0e0;
     font-size: 15px;
     font-weight: 500;
-    padding: 15px 30px;
+    padding: 15px 20px;
     outline: none;
     border-width: 2px;
     border-radius: 5px;
@@ -212,6 +212,7 @@ i {
     background-color: #e0e0e0;
     cursor: pointer;
     width: 50%;
+    margin: 10px;
 }
 
 
@@ -419,4 +420,5 @@ td {
         height: 40vh;
         width: 80vw;
     }
+
 }
