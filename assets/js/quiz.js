@@ -123,7 +123,7 @@ function selectAnswer(e) {
   } else {
     startButton.innerText = 'Restart'
     startButton.classList.remove('hide')
-    alert(`Your final score is: ${score}`)
+    quizScoreAlert()
   }
 }
 
@@ -141,4 +141,13 @@ function setStatusClass(element, correct) {
 function clearStatusClass(element) {
   element.classList.remove('correct')
   element.classList.remove('wrong')
+}
+
+// Sweet alert function for the alert at the end of the quiz
+function quizScoreAlert() {
+  swal({
+    icon: "success",
+    title: "Quiz Completed, Your score",
+    text: `${score}/1000`,
+  });
 }
