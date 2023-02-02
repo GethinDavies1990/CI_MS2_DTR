@@ -14,7 +14,7 @@ h1, h2, h3, h4 {
 .homepage-about {
     padding: 10px 10px;
     width: 100vw;
-    max-width: 90%;
+    max-width: 80%;
 }
 
 .about-header {
@@ -61,7 +61,7 @@ h1, h2, h3, h4 {
 }
 
 i {
-    color: #50C878;
+    color: #111;
     padding-left: 10px;
 }
 
@@ -81,7 +81,7 @@ i {
 
 #image-wrapper::before {
     content: "";
-    background-color: rgba(211, 51, 51, 0.5);
+    background-color: rgba(211, 51, 51, 0.6);
     position: absolute;
     top: 0;
     left: 0;
@@ -362,6 +362,12 @@ td {
     color: #fff;
 }
 
+legend {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
 
 /* 404 page */
 
@@ -426,5 +432,9 @@ td {
     .error-section {
         height: 40vh;
         width: 80vw;
+    }
+    .homepage-about {
+        padding: 5px 5px;
+        max-width: 90%;
     }
 }
