@@ -11,6 +11,12 @@ h1, h2, h3, h4 {
     color: #fff;
 }
 
+.homepage-about {
+    padding: 10px 10px;
+    width: 100vw;
+    max-width: 90%;
+}
+
 .about-header {
     padding-left: 20px;
 }
@@ -421,5 +427,4 @@ td {
         height: 40vh;
         width: 80vw;
     }
-
 }
