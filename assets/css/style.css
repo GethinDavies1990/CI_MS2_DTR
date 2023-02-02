@@ -96,11 +96,12 @@ h1, h2, h3, h4 {
 .social-container {
     text-align: center;
     color: #fff;
+    background-color: #EF233C;
 }
 
 .socials {
     color: #fff;
-    font-size: 6.5rem;
+    font-size: 2.5rem;
     font-weight: 600;
     text-align: center;
     padding: 15px 15px;
