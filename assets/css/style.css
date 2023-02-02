@@ -418,4 +418,10 @@ legend {
         padding: 5px 5px;
         max-width: 90%;
     }
+
+    #image-wrapper {
+        width: 90%;
+        margin: 10px auto;
+    
+    }
 }
