@@ -1,4 +1,5 @@
 // API used to bring in the latest standings for the top goal scorers in the premier league, the api is limited to 100 requests a day
+// Followed the API-Sports documentation to see how to achieve the endpoint I wanted to retrieve, the API was purchased through rapid api on freemium package
 var settings2 = {
   url: "https://v3.football.api-sports.io/players/topscorers?season=2022&league=39",
   method: "GET",
@@ -9,6 +10,8 @@ var settings2 = {
   },
 };
 
+// I found a youtube video of how a developer used an api to display upsplash images in their website, 
+// I used the same approach how to extract the data needed, and followed that same princicpal below for each type of data i wanted to retrive
 // Gets the top goal scorers of the premier league using the getJSON method in jQuery
 $.ajax(settings2).done(function scorereData(topScorer) {
   var players = topScorer.response;
