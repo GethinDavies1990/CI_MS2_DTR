@@ -226,7 +226,7 @@ h1, h2, h3, h4 {
     border-width: 5px;
 }
 
-.quiz-rules-container  h2{
+.quiz-rules-container  h1{
     color: #111;
     text-align: center;
     padding-bottom: 10px;
@@ -234,7 +234,7 @@ h1, h2, h3, h4 {
     cursor: pointer;
 }
 
-.quiz-rules-container  h2:hover {
+.quiz-rules-container  h1:hover {
     color: #23903c;
 }
 
