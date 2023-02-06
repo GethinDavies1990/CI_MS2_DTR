@@ -1,12 +1,12 @@
-# Duck's Tap room
+# LoveSports!
 
 Developed by Gethin Davies
 
 ![Mock up](docs/am-i-responsive/am-i-responsive.jpg)
 
-Duck's Tap room is a craft brewery aimed at people in the craft beer scene. Each week the brewery makes exciting new flavours and experiments these exciting new creation's with their punters. Duck's tap room's website will be useful to find the opening times of the establishment and also to get in touch to book a table. It also showcases the week's events the Tap room has scheduled.
+LoveSports! is a sports website that let's the user's keep up to date with the latest premier league standings, Top Goal Scorers of the league. It also includes a quiz for the sports fans out there. 
 
-[Live Website](https://gethindavies1990.github.io/CI_MS1_DTR/)
+[Live Website](https://gethindavies1990.github.io/CI_MS2_DTR/)
 
 
 ## Table of Content
@@ -44,23 +44,24 @@ Duck's Tap room is a craft brewery aimed at people in the craft beer scene. Each
 ## Project Goals 
 
 ### User Goals
-- Finding bar/pub/tap room that offers craft beers
-- Find the upcoming weeks events
-- Find information on the taproom
-- Find the location of the tap room
+- Finding the latest premier league standings
+- Finding the current top goal scorer in the league
+- Taking part in the LoveSports! quiz game
+- Contacting the owners of the website
 
 ### Site Owner Goals
-- Increase in visitors to the taproom
+- Increase web visitors to the site
 - Promote the business
-- Provide a way for new and existing customers to contact the business.
-- Provide essential information about the business to customers.
-- Provide the customer with a details related to the events taking place at the taproom
+- Give users the chance to partake in the interactive quiz
+- Show the users the latest premier league standings
+- Show the user the latest Top goal scorers of the premier league
 
 ## User Experience
 
 ### Target Audience
-- People looking for a place to enjoy craft beers and great atmosphere
-- People looking for a place to meet with friends
+- Football Fans
+- Premier League football fans
+- Sports Fans
 
 ### User Requirements and Expectations
 
@@ -68,30 +69,31 @@ Duck's Tap room is a craft brewery aimed at people in the craft beer scene. Each
 - Quickly and easily find relevant information
 - Links and functions that work as expected
 - Good presentation and a visually appealing design regardless of screen size
-- An easy way to contact the business
+- An easy way to contact the owners of the website
 - Simple content that the user can skim read
 - Accessibility
 
 ### User Stories
 
 #### First-time User 
-1. As a first time user, I want to know where the tap room is located
-2. As a first time user, I want to know how to get in contact with the tap room
-3. As a first time user, I want to know more about about the taproom
-4. As a first time user, I want to find out what events they have on
+1. As a first time user, I want to find out the latest premier league standings
+2. As a first time user, I want to find out the latest premier top goal scorer's
+3. As a first time user, I want to know more inofrmation about the website
+4. As a first time user, I want to be able to conact the webiste owner
+5. As a first time user, I want to be able to particpate in the interactive quiz game
 
 #### Returning User
-5. As a returning user, I want to find a phone number to call to book a table
-6. As a returning user, I want to what events they have on
-7. As a returning user, I want know what the brew of the week is
-8. As a returning user, I want to find the tap room social handles
-9. As a returning user, I want to get directions to the tap room
+1. As a returning user, I want to find out the latest premier league standings
+2. As a returning user, I want to find out the latest premier top goal scorer's
+3. As a returning user, I want to know more inofrmation about the website
+4. As a returning user, I want to be able to conact the webiste owner
+5. As a returning user, I want to be able to particpate in the interactive quiz game
 
 #### Site Owner 
-10. As the site owner, I want users to find info about upcoming events
-11. As the site owner, I want users to get to know the tap room
+10. As the site owner, I want the users to keep up to date with the latest premier league standings
+11. As the site owner, I want the users to find out the latest top goal scorer table
 12. As the site owner, I want the users to be able to contact us
-13. As the site owner, I want the users to know what the brew of the week is
+13. As the site owner, I want the users to play the interactive quiz game
 
 ## Design
 
@@ -99,22 +101,22 @@ Duck's Tap room is a craft brewery aimed at people in the craft beer scene. Each
 The webpage was designed to be easy to navigate and eye catching with a nice contrast of colors to appeal to the customer, it was made to be fully responsive on all devices. 
 
 ### Colour
-The color scheme chosen was to reflect the tap rooms mascot duck, with a nice bright shade of green and bright yellow. Which is both present on the mascot. I went for the 60%–30%–10% color scheme, (60%-yellow, 30%-charcoal, 10%-green) I mainly chose the color of yellow to be present for the main pages of the website and the dark charcoal was used in the navigation bar and the footer of the website. I used the green color in little instances so they really pop in certain areas we may want to draw the user to.
+I wanted to use bright colours for the design, to attract the customer to the website. the colour chosen for the main background and the majority of the websote was #DB2929.
+White #ffffff was then used for the text accorss all part of the website and also black #111111 where a white background was used/
 <br>
 
-![Colour scheme](docs/features/color-pallete.png)
+![Colour scheme](docs/features/color-scheme.jpg)
 
 
 ### Fonts
-Montserrat was used mainly for the headings within the website.
-<br>
-Source Sans Pro was used for the mostly the p elements in the website
+Righteous, which is a google font was used for all text elements of the website.
+![Font Family](docs/features/font-family.jpg)
 
 ### Logo
 
-I found the logo of the duck online, and removed some parts which wasn't needed to make the logo 2 dimensional, I altered the colors myself to match the tap rooms color pallette. The text on the logo was made by myself using adobe illustrator.
+The logo was made from the font-family Righteous and the words 'Love Sports!' was concanated
 
-![logo](docs/features/ducks-brew-ver.1.webp)
+![logo](docs/features/font-family.jpg)
 
 ### Structure
 
