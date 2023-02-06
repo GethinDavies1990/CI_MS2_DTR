@@ -116,18 +116,17 @@ Righteous, which is a google font was used for all text elements of the website.
 
 The logo was made from the font-family Righteous and the words 'Love Sports!' was concanated
 
-![logo](docs/features/font-family.jpg)
+![logo](docs/features/logo.jpg)
 
 ### Structure
 
-The page is structured to be user friendly and only has two pages, the index page and the book a table page.
-The website consists of 2 separate pages with a total of 6 sections: 
-- The index page includes a hero section with a CTA(call to action) for the user to book a table
-- A Testimonial section so new users can see past experiences from other users while visiting the tap room.
-- The our story section which details the birth of the tap room and its growth in recent years and how it became what it is.
-- An event section so the user can see what events take place on the given week.
-- A how to find us section which includes the business's address, google map and contact form information.
-- The book a table page, which includes a form the user can submit to reserve their space
+The page is structured to be user friendly and only has 4 pages, The Homepage, The Football Stats Page, The quiz page and the Contact page 
+- The index page includes a hero section with a typed animation which overlays the image
+- An about section is present in the page, which describes a small brief on the websites features
+- The footer section includes the social media links, on the index.html page it also includes a subscribe email submit form. 
+- The football stats page includes 2 table which display the live current football standings and also the top goal scorer tally of the premier league. 
+- The quiz page includes a quiz rules dropdown box to list the user with the rules to play the quiz
+- The conatct page includes a form to submit to get in touch with the site owner
 
 ### Wireframes
 
