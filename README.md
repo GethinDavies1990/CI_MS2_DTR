@@ -240,33 +240,77 @@ The site consists of 4 pages and fourteen features
 
 ![Newsletter](docs/features/newsletter.jpg)
 
-### How to find us
-- Gives the user a contact box to submit a inquiry
-- The user is also able to see the google map of the business
-- The user can get access to the contact information
-- The user can find out the telephone number and email address 
-- User Stories covered: 1, 2, 5, 9
+### Premier League Standings API
+- Gives the user a the live up to date Premier league standings
+- Displays all 20 teams and their positions in the league
+- Displays the team's logo's
+- Displays the team's current Win,Loss,Draw tally
+- Displays the team's Goals For (GF), Goals Against (GA), Goals Difference (GD)
+- Displays the tema's 'Last 5' Results - Win(W), Loss(L), Draw(D)
+- User Stories covered: 1, 8, 15
 
-![How to Find us](docs/features/how-to-find-us.jpg)
+![Premier League Standings API](docs/features/standings.jpg)
 
-### Book a Table
-- user is able to submit a form to reserve a space at the taproom
-- User Stories covered: 5
+### Premier League Top Goal Scorer's API
+- Gives the user a live up to date table of the top 20 goal scorer's in the premier league
+- Displays all 20 players with thier profile picture
+- Display's the Players Team logo
+- The players goal tally
+- Displays the players assist tally if any
+- User stories covered: 2, 9, 16
 
-![Book a Table](docs/features/book-table.jpg)
+![Top Goal Scorer's](docs/features/top-goal-scorers.jpg)
 
-### Footer
-- Features the logo and social icons with links to their respected social media pages.
-- User Stories covered: 8
+### Quiz Rules
+- Displays to the user the rules for the quiz
+- Was made with a dropdown animation using jquery
+- Once the 'Start Quiz' Button is clicked this element will be hidden
 
-![Footer](docs/features/footer.jpg)
+![Quiz Rules](docs/features/quiz-rules.jpg)
+
+### Quiz Features
+- The quiz features a timer that countsdown from 15 seconds to 0
+- Once the timer is finished, the user cannot select an answer
+- Each question is shuffled so the all user's do not have the same question each time
+- There is 10 questions to be answered
+- 1000 points is the max score the user can achieve
+- 100 points is awarded for every correct answer and will be added to the score tally in the top left corner
+- A correct answer will add the 'correct' class to elements and make these green so the user is visually aware they got the answer correct
+- A correct answer will also give feedback of 'Well Done! That is Correct!'
+- The correct Answer selected will also display green, and all other inccorect answers will be displayed in red
+- A incorrect answer will add the 'wrong' class to elements and highlight them red
+- A incorrect answer will also generate the feedback to notify the user the answer was incorrect 'Ahhh that is Wrong!'
+- A incorrect answer, will also highlight what the crrect answer was to the user so they are aware
+- On completion of the quiz, the user will be alerted with their score, the alert used was by the library 'sweet alerts'
+
+<details><summary>Correct Answer</summary>
+<img src="docs/features/correct-answer.jpg">
+</details>
+
+<details><summary>Incorrect Answer</summary>
+<img src="docs/features/incorrect-answer.jpg">
+</details>
+
+<details><summary>Quiz Completion</summary>
+<img src="docs/features/completed-quiz">
+</details>
 
 
-### Map
-- Shows the taproom location on an embedded Google Map
-- User Stories covered: 1, 9
+### Feedback Form
+- Gives the user a form to submit a feedback message
+- Emailjs was used
+- Some field validation was used, and I combined it with the sweet alert library to alert the user if the submission of the form was succesful or if it was unsuccessful
+- User Stories covered: 4, 11, 17
 
-![Map](docs/features/map.jpg)
+<details><summary>Sucessful Submission</summary>
+<img src="docs/features/successful-submission.jpg">
+</details>
+
+<details><summary>Uncsuccessful Submission</summary>
+<img src="docs/features/unsuccessful-submission.jpg">
+</details>
+
+![Feedback Form](docs/features/feedback.jpg)
 
 
 ## Validation
