@@ -272,20 +272,20 @@ h1, h2, h3, h4 {
 }
 
 th {
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 5px;
     background-color: #111;
     color: #fff;
 }
 
 td {
-    font-size: 1rem;
+    font-size: 0.7rem;
     padding: 5px;
 }
 
 
 .team-logo {
-    height: 50px;
+    height: 40px;
     padding-right: 30px;
     padding-bottom: 10px;
 }
