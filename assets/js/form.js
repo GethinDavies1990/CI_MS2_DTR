@@ -7,7 +7,7 @@ function validate() {
     btn.addEventListener("click", (e) => {
       e.preventDefault();
       if (name.value == "" || email.value == "" || msg.value == "") {
-        emptyerror();
+        emptyError();
       } else {
         sendmail(name.value, email.value, msg.value);
         success();
@@ -28,21 +28,11 @@ function validate() {
 
 // Function called if fields are empty and a submit is attempted
 
-  function emptyerror() {
+  function emptyError() {
     swal({
       icon: "error",
       title: "Oops...",
       text: "Fields cannot be empty!",
-    });
-  }
-
-//  function called if something is wrong, i.e the cdn for the emailjs library doesn't load
-
-  function error() {
-    swal({
-      icon: "error",
-      title: "Oops...",
-      text: "Something went wrong!",
     });
   }
 
