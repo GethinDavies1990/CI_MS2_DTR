@@ -101,6 +101,12 @@ h1, h2, h3, h4 {
     background-color: #DB2929;
 }
 
+.social-header {
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+}
+
 .socials {
     color: #fff;
     font-size: 2.5rem;
