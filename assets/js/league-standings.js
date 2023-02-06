@@ -64,7 +64,7 @@ $.ajax(settings).done(function leagueData (league) {
 
 
       //  inputs League standings data into a HTML table
-      $("#standings-table tbody").append(`<tr><td>${teamRank}</td><td><img class='team-logo' alt='team-logo' src='${teamLogo}'>${teamName}</td><td class="mob-hide">${matchesPlayed}</td><td>${teamWins}</td><td>${teamDraw}</td><td>${teamLoss}</td><td class="mob-hide">${teamGoalsFor}</td><td class="mob-hide">${teamGoalsAgainst}</td><td class="mob-hide">${teamGoalDifference}</td><td>${teamPoints}</td><td>${teamForm}</td></tr>`);
+      $("#standings-table tbody").append(`<tr><td>${teamRank}</td><td><img class='team-logo' alt='${teamLogo}' src='${teamLogo}'>${teamName}</td><td class="mob-hide">${matchesPlayed}</td><td>${teamWins}</td><td>${teamDraw}</td><td>${teamLoss}</td><td class="mob-hide">${teamGoalsFor}</td><td class="mob-hide">${teamGoalsAgainst}</td><td class="mob-hide">${teamGoalDifference}</td><td>${teamPoints}</td><td>${teamForm}</td></tr>`);
     };
   });
   
