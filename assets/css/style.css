@@ -442,4 +442,9 @@ legend {
         margin: 10px auto;
     
     }
+    .logo {
+       
+        font-size: 1.2rem;
+        padding-left: 10px;
+    }
 }
