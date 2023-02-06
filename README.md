@@ -79,7 +79,7 @@ LoveSports! is a sports website that let's the user's keep up to date with the l
 1. As a first time user, I want to find out the latest premier league standings
 2. As a first time user, I want to find out the latest premier top goal scorer's
 3. As a first time user, I want to know more inofrmation about the website
-4. As a first time user, I want to be able to conact the webiste owner
+4. As a first time user, I want to be able to contact the webiste owner
 5. As a first time user, I want to be able to particpate in the interactive quiz game
 
 #### Returning User
@@ -182,6 +182,7 @@ The page is structured to be user friendly and only has 4 pages, The Homepage, T
 ### Languages
 - HTML
 - CSS
+- JavaScript
 
 ### Frameworks & Tools
 - Bootstrap v5.2.1
@@ -189,36 +190,37 @@ The page is structured to be user friendly and only has 4 pages, The Homepage, T
 - GitHub
 - Gitpod
 - Adobe Illustrator
-- Balsamiq
+- Figma
 - Google Fonts
 - Font Awsome
+- Sweet Alerts
+- Jquery
+- Emailjs
 - Favicon<span>.</span>io
 
 ## Features
-The page consists of 2 pages and fourteen features
+The site consists of 4 pages and fourteen features
 
-## Navigation Bar
-- Featured on all two pages
-- The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes
-links to the Homepage, our story, Events, how to find us section using the ID tags, the book table link takes you to a separate page. The Navigation page is fixed to the top to always be present on scroll so if the user wants to navigate quickly to a different section they can do so. 
+### Navigation Bar
+- Featured on all four pages
+- The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes links to the Homepage, football stats page, quiz page and the contact page.
 - It allows users to easily navigate the page
-- The link for the page the user is currently on is highlighted in white, when the user scrolls over the other links the text will change color to highlight it is a clickable element.
+- The link for the page the user is currently on is highlighted in black, when the user scrolls over the other links the text will change color to highlight it is a clickable element.
 
 
-![Nav Bar](docs/features/nav.jpg)
+![Nav Bar](docs/features/nav-bar.jpg)
 
-### hero
-- Introduces the user to the tap room with a image showcasing a business that has great atmosphere
-- Includes a CTA (Call to action) button for the user to book a table
-- User Stories covered: 5
+### Hero
+- Introduces the user the website with a typing animation (made with jquery plugin)
+- User Stories covered: 2
 
 ![Hero Section](docs/features/hero.jpg)
 
-### Testimonials
-- The user instantly see's some customer testimonials of recent visits.
-- User Stories covered: 3
+### About
+- The user instantly is introduced to a short breif on the website and its purpose
+- User Stories covered: 2
 
-![Testimonial](docs/features/testimonial.jpg)
+![ABout](docs/features/about.jpg)
 
 ### Our Story
 - Allows users to see how the tap room was established and the growth it has undertaken up to the current year
