@@ -302,7 +302,7 @@ td {
     box-shadow: 0 0 10px 2px;
 }
 
-.form-container  h3, h4 {
+.form-container  h1, h2, legend {
     color: #DB2929;
     font-size: 1.3rem;
     margin: auto;
@@ -320,6 +320,14 @@ td {
     border-width: 3px;
     background-color: #e0e0e0;
     display: grid;
+}
+
+
+label {
+    display: grid;
+    width: 70%;
+    text-align: left;
+    margin: 5px auto;
 }
 
 .input:hover {
@@ -347,7 +355,7 @@ td {
 
 legend {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 
