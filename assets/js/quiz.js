@@ -137,3 +137,18 @@ function setStatusClass(element, correct) {
     element.classList.add('wrong');
   }
 }
+
+// clears all correct or wrong styling
+function clearStatusClass(element) {
+  element.classList.remove('correct')
+  element.classList.remove('wrong')
+}
+
+// Sweet alert function for the alert at the end of the quiz
+function quizScoreAlert() {
+  swal({
+    icon: "success",
+    title: "Quiz Completed, Your score",
+    text: `${score}/1000`,
+  });
+}
