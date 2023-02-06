@@ -78,22 +78,28 @@ LoveSports! is a sports website that let's the user's keep up to date with the l
 #### First-time User 
 1. As a first time user, I want to find out the latest premier league standings
 2. As a first time user, I want to find out the latest premier top goal scorer's
-3. As a first time user, I want to know more inofrmation about the website
+3. As a first time user, I want to know more information about the website
 4. As a first time user, I want to be able to contact the webiste owner
 5. As a first time user, I want to be able to particpate in the interactive quiz game
+6. As a first time user, I want to be able to find the social media sites
+7. As a first time user, I want to be able to subscribe to the websites newsletter
 
 #### Returning User
-1. As a returning user, I want to find out the latest premier league standings
-2. As a returning user, I want to find out the latest premier top goal scorer's
-3. As a returning user, I want to know more inofrmation about the website
-4. As a returning user, I want to be able to conact the webiste owner
-5. As a returning user, I want to be able to particpate in the interactive quiz game
+8. As a returning user, I want to find out the latest premier league standings
+9. As a returning user, I want to find out the latest premier top goal scorer's
+10. As a returning user, I want to know more information about the website
+11. As a returning user, I want to be able to contact the webiste owner
+12. As a returning user, I want to be able to particpate in the interactive quiz game
+13. As a returning user, I want to be able to find the social media sites
+14. As a returning user, I want to be able to subscribe to the websites newsletter
 
 #### Site Owner 
-10. As the site owner, I want the users to keep up to date with the latest premier league standings
-11. As the site owner, I want the users to find out the latest top goal scorer table
-12. As the site owner, I want the users to be able to contact us
-13. As the site owner, I want the users to play the interactive quiz game
+15. As the site owner, I want the users to keep up to date with the latest premier league standings
+16. As the site owner, I want the users to find out the latest top goal scorer table
+17. As the site owner, I want the users to be able to contact us
+18. As the site owner, I want the users to play the interactive quiz game
+19. As the site owner, I want the users be able to find the social media sites
+20. As a returning user, I want to be able to subscribe to the websites newsletter
 
 ## Design
 
@@ -212,27 +218,27 @@ The site consists of 4 pages and fourteen features
 
 ### Hero
 - Introduces the user the website with a typing animation (made with jquery plugin)
-- User Stories covered: 2
+- User Stories covered: 3, 9 
 
 ![Hero Section](docs/features/hero.jpg)
 
 ### About
 - The user instantly is introduced to a short breif on the website and its purpose
-- User Stories covered: 2
+- User Stories covered: 3, 9
 
-![ABout](docs/features/about.jpg)
+![About](docs/features/about.jpg)
 
-### Our Story
+### Social Links
 - Allows users to see how the tap room was established and the growth it has undertaken up to the current year
-- User Stories covered: 3
+- User Stories covered: 6, 12, 17
 
-![Our Story](docs/features/our-story.jpg)
+![Social Links](docs/features/social-links.jpg)
 
-### Events
-- The events section was made using a grid system, each grid square offers a new event for that week.
-- User Stories covered: 3, 4, 6, 7
+### Newsletter
+- Allows users to subscribe to the newsletter and get added to the mailing list
+- User Stories covered: 7, 14, 20
 
-![Events](docs/features/events.jpg)
+![Newsletter](docs/features/newsletter.jpg)
 
 ### How to find us
 - Gives the user a contact box to submit a inquiry
