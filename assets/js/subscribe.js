@@ -34,16 +34,6 @@ function validate() {
     });
   }
 
-//  function called if something is wrong, i.e the cdn for the emailjs library doesn't load
-
-  function subError() {
-    swal({
-      icon: "error",
-      title: "Oops...",
-      text: "Something went wrong!",
-    });
-  }
-
 //   function called if the submit button is successful 
 
   function subSuccess() {
