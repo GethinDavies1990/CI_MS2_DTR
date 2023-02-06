@@ -1,6 +1,6 @@
 
 body {
-    background-color: #EF233C;
+    background-color: #DB2929;
     font-family: 'Righteous', cursive;
     width: auto;
 }
@@ -36,7 +36,7 @@ h1, h2, h3, h4 {
 }
 
 .navbar {
-    background-color: #EF233C !important;
+    background-color: #DB2929 !important;
 }
 
 .navbar-nav a {
@@ -51,7 +51,7 @@ h1, h2, h3, h4 {
     background: url("../images/hero.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #EF233C;
+    background-color: #DB2929;
     height: 70vh;
     position: relative;
     width: 70%;
@@ -98,7 +98,7 @@ h1, h2, h3, h4 {
 .social-container {
     text-align: center;
     color: #fff;
-    background-color: #EF233C;
+    background-color: #DB2929;
 }
 
 .socials {
@@ -188,7 +188,7 @@ h1, h2, h3, h4 {
 }
 
 .btn.wrong {
-    background-color: #EF233C;
+    background-color: #DB2929;
     border-color: #a42834;
     color: #fff;
 }
@@ -303,7 +303,7 @@ td {
 }
 
 .form-container  h3, h4 {
-    color: #EF233C;
+    color: #DB2929;
     font-size: 1.3rem;
     margin: auto;
     display: grid;
@@ -323,7 +323,7 @@ td {
 }
 
 .input:hover {
-    border-color: #EF233C;
+    border-color: #DB2929;
     border-width: 5px;
 }
 
@@ -331,7 +331,7 @@ td {
     width: 70%;
     padding: 5px;
     margin: 10px auto;
-    background-color: #EF233C;
+    background-color: #DB2929;
     color: #fff;
     font-size: 1.5rem;
     border-radius: 5px;
