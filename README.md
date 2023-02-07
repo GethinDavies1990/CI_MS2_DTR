@@ -354,6 +354,30 @@ The WAVE WebAIM web accessibility evaluation tool was used to ensure the website
 <img src="docs/validation/accessibility/quiz-page.jpg">
 </details>
 
+### javaScript Validation
+<details><summary>Form</summary>
+<img src="docs/validation/javascript/form-jshint.jpg">
+</details>
+
+<details><summary>Jquery</summary>
+<img src="docs/validation/javascript/jquery-jshint.jpg">
+</details>
+
+<details><summary>League Standings</summary>
+<img src="docs/validation/javascript/league-standings-jshint.jpg">
+</details>
+
+<details><summary>Quiz</summary>
+<img src="docs/validation/javascript/quiz-jshint.jpg">
+</details>
+
+<details><summary>Subscribe</summary>
+<img src="docs/validation/javascript/subscribe-jshint.jpg">
+</details>
+
+<details><summary>Top Goal Scorer</summary>
+<img src="docs/validation/javascript/top-goal-scorer-jshint.jpg">
+</details>
 
 
 
