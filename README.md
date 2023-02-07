@@ -492,6 +492,78 @@ The website was tested on the following browsers:
 <img src="docs/test/user-stories/user-story-7.jpg">
 </details>
 
+## Returning User
+
+8. As a returning user, I want to find out the latest premier league standings
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Premier League Standings | Navigate to the 'stats' link in navbar, locate the Premier league standing table | Locating the table will show the up to date premier league standing's table | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/test/user-stories/user-story-8.jpg">
+</details>
+
+9. As a returning user, I want to find out the latest premier league top scorer's
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Premier League Top Goal Scorers | Navigate to the 'stats' link in navbar, locate the Premier league top goal scorer table | Locating the table will show the up to date premier league top goal scorer's table | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/test/user-stories/user-story-9.jpg">
+</details>
+
+10. As a returning user, I want to find out more information on the website
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About Section | Scroll to the 'About us' section from the homepage | Locating the 'About' section will give the user a brief about the websites goals | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/test/user-stories/user-story-10.jpg">
+</details>
+
+11. As a returning user, I want to contact the website owner
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact us | Select the 'Contact' link in the navigation bar | Locating the 'Contact' page of the website gives the user a form they can submit to get in touch with the owner | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/test/user-stories/user-story-11.jpg">
+</details>
+
+12. As a returning user, I want to participate in the interactive quiz game
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Quiz Game | Select the 'Quiz' link in the navigation bar | Locating the 'quiz' link will take the user to the quiz page where they can play | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/test/user-stories/user-story-12.jpg">
+</details>
+
+13. As a returning user, I want to find the social media websites
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Social Links | Scroll to the bottom of any page, and the social media links are present in the footer | Locating the social media icons will take the user to their respective social media page | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/test/user-stories/user-story-13.jpg">
+</details>
+
+14. As a returning user, I want to subscribe to the websites newsletter
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Newsletter | Scroll to the bottom of any page, and user inuts their email address | once the user submits their email address they will get a feedback to inform them it has been successful | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/test/user-stories/user-story-14.jpg">
+</details>
+
 ## Bugs
 
 | **Bug** | **Fix** |
