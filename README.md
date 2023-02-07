@@ -96,10 +96,11 @@ LoveSports! is a sports website that let's the user's keep up to date with the l
 #### Site Owner 
 15. As the site owner, I want the users to keep up to date with the latest premier league standings
 16. As the site owner, I want the users to find out the latest top goal scorer table
-17. As the site owner, I want the users to be able to contact us
-18. As the site owner, I want the users to play the interactive quiz game
-19. As the site owner, I want the users be able to find the social media sites
-20. As a returning user, I want to be able to subscribe to the websites newsletter
+17. As the site owner, I want the users to find out more information on the site
+18. As the site owner, I want the users to be able to contact us
+19. As the site owner, I want the users to play the interactive quiz game
+20. As the site owner, I want the users be able to find the social media sites
+21. As a returning user, I want to be able to subscribe to the websites newsletter
 
 ## Design
 
@@ -421,6 +422,7 @@ The website was tested on the following browsers:
 ### Testing user stories
 
 ## First-time User 
+<br>
 
 1. As a first time user, I want to find out the latest premier league standings
 
@@ -431,6 +433,7 @@ The website was tested on the following browsers:
 <details><summary>Screenshot</summary>
 <img src="docs/test/user-stories/user-story-1.jpg">
 </details>
+<br>
 
 2. As a first time user, I want to find out the latest premier league top scorer's
 
@@ -441,6 +444,7 @@ The website was tested on the following browsers:
 <details><summary>Screenshot</summary>
 <img src="docs/test/user-stories/user-story-2.jpg">
 </details>
+<br>
 
 3. As a first time user, I want to find out more information on the website
 
@@ -451,6 +455,7 @@ The website was tested on the following browsers:
 <details><summary>Screenshot</summary>
 <img src="docs/test/user-stories/user-story-3.jpg">
 </details>
+<br>
 
 4. As a first time user, I want to contact the website owner
 
@@ -461,6 +466,7 @@ The website was tested on the following browsers:
 <details><summary>Screenshot</summary>
 <img src="docs/test/user-stories/user-story-4.jpg">
 </details>
+<br>
 
 5. As a first time user, I want to participate in the interactive quiz game
 
@@ -471,6 +477,7 @@ The website was tested on the following browsers:
 <details><summary>Screenshot</summary>
 <img src="docs/test/user-stories/user-story-5.jpg">
 </details>
+<br>
 
 6. As a first time user, I want to find the social media websites
 
@@ -481,6 +488,7 @@ The website was tested on the following browsers:
 <details><summary>Screenshot</summary>
 <img src="docs/test/user-stories/user-story-6.jpg">
 </details>
+<br>
 
 7. As a first time user, I want to subscribe to the websites newsletter
 
@@ -491,9 +499,10 @@ The website was tested on the following browsers:
 <details><summary>Screenshot</summary>
 <img src="docs/test/user-stories/user-story-7.jpg">
 </details>
+<br>
 
 ## Returning User
-
+<br>
 8. As a returning user, I want to find out the latest premier league standings
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -503,6 +512,7 @@ The website was tested on the following browsers:
 <details><summary>Screenshot</summary>
 <img src="docs/test/user-stories/user-story-8.jpg">
 </details>
+<br>
 
 9. As a returning user, I want to find out the latest premier league top scorer's
 
@@ -513,6 +523,7 @@ The website was tested on the following browsers:
 <details><summary>Screenshot</summary>
 <img src="docs/test/user-stories/user-story-9.jpg">
 </details>
+<br>
 
 10. As a returning user, I want to find out more information on the website
 
@@ -523,6 +534,7 @@ The website was tested on the following browsers:
 <details><summary>Screenshot</summary>
 <img src="docs/test/user-stories/user-story-10.jpg">
 </details>
+<br>
 
 11. As a returning user, I want to contact the website owner
 
@@ -533,6 +545,7 @@ The website was tested on the following browsers:
 <details><summary>Screenshot</summary>
 <img src="docs/test/user-stories/user-story-11.jpg">
 </details>
+<br>
 
 12. As a returning user, I want to participate in the interactive quiz game
 
@@ -543,6 +556,7 @@ The website was tested on the following browsers:
 <details><summary>Screenshot</summary>
 <img src="docs/test/user-stories/user-story-12.jpg">
 </details>
+<br>
 
 13. As a returning user, I want to find the social media websites
 
@@ -553,6 +567,7 @@ The website was tested on the following browsers:
 <details><summary>Screenshot</summary>
 <img src="docs/test/user-stories/user-story-13.jpg">
 </details>
+<br>
 
 14. As a returning user, I want to subscribe to the websites newsletter
 
@@ -563,6 +578,10 @@ The website was tested on the following browsers:
 <details><summary>Screenshot</summary>
 <img src="docs/test/user-stories/user-story-14.jpg">
 </details>
+<br>
+
+## Site Owner
+
 
 ## Bugs
 
