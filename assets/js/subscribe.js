@@ -1,3 +1,6 @@
+/* global swal */
+/* global emailjs */
+
 (function () {
   emailjs.init("ga5PLTovBmNLpTpJO");
 })();
@@ -12,6 +15,8 @@ function validate() {
       e.preventDefault();
       if (subscribeEmail.value == "") {
         subEmptyerror();
+      } else if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(subscribeEmail.value)) {
+        subInvalid()
       } else {
         sendmail(subscribeEmail.value);
         subSuccess();
@@ -45,5 +50,15 @@ function validate() {
       icon: "success",
       title: "Success...",
       text: "You have subscribed!",
+    });
+  }
+
+   //   function called if an invalid email address is used 
+
+   function subInvalid() {
+    swal({
+      icon: "error",
+      title: "Oops...",
+      text: "Invalid Email Address",
     });
   }

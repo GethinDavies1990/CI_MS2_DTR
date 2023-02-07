@@ -1,3 +1,6 @@
+/* global swal */
+/* global emailjs */
+
 (function () {
   emailjs.init("ga5PLTovBmNLpTpJO");
 })();
@@ -12,6 +15,8 @@ function validate() {
       e.preventDefault();
       if (name.value == "" || email.value == "" || msg.value == "") {
         emptyError();
+      } else if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email.value)) {
+        invalid()
       } else {
         sendmail(name.value, email.value, msg.value);
         success();
@@ -47,5 +52,15 @@ function validate() {
       icon: "success",
       title: "Success...",
       text: "Successfully sent message",
+    });
+  }
+
+  //   function called if an invalid email address is used 
+
+  function invalid() {
+    swal({
+      icon: "error",
+      title: "Oops...",
+      text: "Invalid Email Address",
     });
   }
