@@ -318,14 +318,18 @@ The site consists of 4 pages and fourteen features
 ### HTML Validation
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
 <details><summary>Home/Index</summary>
-<img src="docs/validation/validation-html-index.jpg">
+<img src="docs/validation/html/home-page-w3.jpg">
 </details>
-<details><summary>Book Table</summary>
-<img src="docs/validation/validation-html-book-table.jpg">
+<details><summary>Football Stats</summary>
+<img src="docs/validation/html/football-stats-page-w3.jpg">
 </details>
-<details><summary>404</summary>
-<img src="docs/validation/validation-html-404.jpg">
+<details><summary>Contact</summary>
+<img src="docs/validation/html/contact-page-w3.jpg">
 </details>
+<details><summary>Quiz</summary>
+<img src="docs/validation/html/quiz-page-w3.jpg">
+</details>
+
 
 
 
