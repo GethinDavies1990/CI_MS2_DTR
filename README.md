@@ -692,6 +692,18 @@ You can clone the repository by following these steps:
 6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
 7.Press Enter to create your local clone.
 
+## RapidAPI - Sports API - Football
+ 1. create an account
+ 2. once you have created an account you will be supplied with a key and parameters needed to fetch the data
+
+ ## Email JS
+
+ 1. Create an account at emailjs.com
+ 2. In the integration screen in the emailjs dashboard, note your userid
+ 3. Create a email service in the Email Services section and note the id
+ 4. Create a email template in the Email templates section and note the id
+ 5. Update the script sendEmail.js, method sendMail with your user id, email service id and email template id
+
 ## Credits
 Images not referenced below are owned by the developer.
 
