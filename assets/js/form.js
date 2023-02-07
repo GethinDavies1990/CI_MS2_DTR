@@ -1,3 +1,7 @@
+(function () {
+  emailjs.init("ga5PLTovBmNLpTpJO");
+})();
+
 function validate() {
     let name = document.querySelector("#name");
     let email = document.querySelector("#email");
