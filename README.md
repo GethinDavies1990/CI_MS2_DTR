@@ -696,24 +696,18 @@ You can clone the repository by following these steps:
 Images not referenced below are owned by the developer.
 
 ### Images
- * [hero image](assets/images/beer-hero.webp): downloaded from <a href="https://elements.envato.com/cheering-up-with-beer-W2GULE9">Envato</a>
-* [Testimonial image 1](assets/images/testimonial-1.webp): downloaded from <a href="https://elements.envato.com/elegant-confident-afro-american-businessman-in-gla-3MM44SJ">Envato</a>
-* [Testimonial image 2](assets/images/testimonial-2.webp): downloaded from <a href="https://elements.envato.com/portrait-of-a-beautiful-happy-young-woman-headshot-GX3QC6N">Envato</a>
-* [Our Story Carousel 1](assets/images/home-brewery.webp): downloaded from <a href="https://elements.envato.com/home-brew-74D8PZC">Envato</a>
-* [Our Story Carousel 2](assets/images/warehouse.webp): downloaded from <a href="https://elements.envato.com/empty-warehouse-74D8PZC">Envato</a>
-* [Our Story Carousel 3](assets/images/taproom.webp): downloaded from <a href="https://elements.envato.com/bar-pub">Envato</a>
-* [Event img 1](assets/images/beer-pour.webp): downloaded from <a href="https://elements.envato.com/side-view-of-mans-hands-that-fills-glasses-by-beer-9WWBNZZ">Envato</a>
-* [Event img 2](assets/images/beer-of-week.webp): downloaded from <a href="https://elements.envato.com/pale-beer-N4RX5NF">Envato</a>
-* [Event img 3](assets/images/comedy-night.webp): downloaded from <a href="https://elements.envato.com/friends-laughing-and-drinking-draft-beer-CDXETQA">Envato</a>
-* [Event img 4](assets/images/rocker.webp): downloaded from <a href="https://elements.envato.com/male-singer-in-sunglasses-rock-band-TYEQBLN">Envato</a>
-* [Event img 5](assets/images/taco-tuesday.webp): downloaded from <a href="https://elements.envato.com/tacos-EUP92L7">Envato</a>
+ * [hero image](assets/images/hero.webp): downloaded from Upsplash</a>
+ * Player profile images: are fetched from the API-Sports Football API
+ * Team crest images: are fetched from the API-Sports Football API
+
 
 ### Code
 * Bootstrap was used in many areas of the website to make it responsive.
-* grid image system by Dcode on youtube
-* The contact/Map section a flex video was watched to understand how it works to implement this https://www.youtube.com/watch?v=JJSoEo8JSnc
-
-All imagery was taken from  Envato Elements(https://elements.envato.com/) and is credited in my code.
+* Jquery was used to add some animation and was also used to make develop the API for both the 'Premier league standings' & 'Top Goal Scorer's Table' using the getJSON method.
+* The function used was seen on a youtube video. the video showed a function to loop through certain data, I then used this technique to loop through the endpoints I wanted to suit my requirements
+* the template literal code at the bottom of each API, I saw this technique on another youtube video to append the data onto the DOM
+* The quiz game was based on a quiz game I made on a online tutorial in the past, I used this concept, and added more functions into the quiz game to make it more interactive. 
+* The timer function I made from looking at documentation on w3 schools and some stack overflow forums
 
 [Back to Table Of Content](#Table-of-Content)
 
