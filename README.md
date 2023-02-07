@@ -354,7 +354,7 @@ The WAVE WebAIM web accessibility evaluation tool was used to ensure the website
 <img src="docs/validation/accessibility/quiz-page.jpg">
 </details>
 
-### javaScript Validation
+### JavaScript Validation
 <details><summary>Form</summary>
 <img src="docs/validation/javascript/form-jshint.jpg">
 </details>
@@ -380,21 +380,26 @@ The WAVE WebAIM web accessibility evaluation tool was used to ensure the website
 </details>
 
 
-
 ### Performance 
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. 
 
 <details><summary>Home</summary>
-<img src="docs/validation/validation-lighthouse-index.jpg">
+<img src="docs/validation/lighthouse/home-page-lh.jpg">
 </details>
 
-<details><summary>Book Table</summary>
-<img src="docs/validation/validation-lighthouse-book-table.jpg">
+<details><summary>Football Stats</summary>
+<img src="docs/validation/lighthouse/football-stats-page-lh.jpg">
 </details>
 
-<details><summary>404</summary>
-<img src="docs/validation/validation-lighthouse-404.jpg">
+<details><summary>Contact</summary>
+<img src="docs/validation/lighthouse/contact-page-lh.jpg">
 </details>
+
+<details><summary>Quiz</summary>
+<img src="docs/validation/lighthouse/quiz-page-lh.jpg">
+</details>
+
+
 
 
 ### Performing tests on various devices 
