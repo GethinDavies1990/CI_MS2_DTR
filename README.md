@@ -432,7 +432,7 @@ The website was tested on the following browsers:
 <img src="docs/test/user-stories/user-story-1.jpg">
 </details>
 
-2. As a first time user, I want to find out the latest prmier league standings
+2. As a first time user, I want to find out the latest premier league top scorer's
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -442,6 +442,15 @@ The website was tested on the following browsers:
 <img src="docs/test/user-stories/user-story-2.jpg">
 </details>
 
+3. As a first time user, I want to find out more information on the website
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About Section | Scroll to the 'About us' section from the homepage | Locating the 'About' section will give the user a brief about the websites goals | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/test/user-stories/user-story-3.jpg">
+</details>
 
 
 ## Bugs
