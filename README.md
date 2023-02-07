@@ -482,6 +482,16 @@ The website was tested on the following browsers:
 <img src="docs/test/user-stories/user-story-6.jpg">
 </details>
 
+7. As a first time user, I want to subscribe to the websites newsletter
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Newsletter | Scroll to the bottom of any page, and user inuts their email address | once the user submits their email address they will get a feedback to inform them it has been successful | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/test/user-stories/user-story-7.jpg">
+</details>
+
 ## Bugs
 
 | **Bug** | **Fix** |
