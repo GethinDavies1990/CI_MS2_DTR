@@ -472,6 +472,15 @@ The website was tested on the following browsers:
 <img src="docs/test/user-stories/user-story-5.jpg">
 </details>
 
+6. As a first time user, I want to find the social media websites
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Social Links | Scroll to the bottom of any page, and the social media links are present in the footer | Locating the social media icons will take the user to their respective social media page | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/test/user-stories/user-story-6.jpg">
+</details>
 
 ## Bugs
 
