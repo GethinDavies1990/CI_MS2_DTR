@@ -452,6 +452,26 @@ The website was tested on the following browsers:
 <img src="docs/test/user-stories/user-story-3.jpg">
 </details>
 
+4. As a first time user, I want to contact the website owner
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact us | Select the 'Contact' link in the navigation bar | Locating the 'Contact' page of the website gives the user a form they can submit to get in touch with the owner | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/test/user-stories/user-story-4.jpg">
+</details>
+
+5. As a first time user, I want to participate in the interactive quiz game
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Quiz Game | Select the 'Quiz' link in the navigation bar | Locating the 'quiz' link will take the user to the quiz page where they can play | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/test/user-stories/user-story-5.jpg">
+</details>
+
 
 ## Bugs
 
