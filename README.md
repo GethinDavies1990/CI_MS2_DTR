@@ -582,15 +582,95 @@ The website was tested on the following browsers:
 
 ## Site Owner
 
+<br>
+15. As a site owner, I want to find out the latest premier league standings
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Premier League Standings | Navigate to the 'stats' link in navbar, locate the Premier league standing table | Locating the table will show the up to date premier league standing's table | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/test/user-stories/user-story-15.jpg">
+</details>
+<br>
+
+16. As a site owner, I want to find out the latest premier league top scorer's
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Premier League Top Goal Scorers | Navigate to the 'stats' link in navbar, locate the Premier league top goal scorer table | Locating the table will show the up to date premier league top goal scorer's table | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/test/user-stories/user-story-16.jpg">
+</details>
+<br>
+
+17. As a site owner, I want to find out more information on the website
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About Section | Scroll to the 'About us' section from the homepage | Locating the 'About' section will give the user a brief about the websites goals | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/test/user-stories/user-story-17.jpg">
+</details>
+<br>
+
+18. As a site owner, I want to contact the website owner
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact us | Select the 'Contact' link in the navigation bar | Locating the 'Contact' page of the website gives the user a form they can submit to get in touch with the owner | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/test/user-stories/user-story-18.jpg">
+</details>
+<br>
+
+19. As a site owner, I want to participate in the interactive quiz game
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Quiz Game | Select the 'Quiz' link in the navigation bar | Locating the 'quiz' link will take the user to the quiz page where they can play | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/test/user-stories/user-story-19.jpg">
+</details>
+<br>
+
+20. As a site owner, I want to find the social media websites
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Social Links | Scroll to the bottom of any page, and the social media links are present in the footer | Locating the social media icons will take the user to their respective social media page | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/test/user-stories/user-story-20.jpg">
+</details>
+<br>
+
+21. As a site owner, I want to subscribe to the websites newsletter
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Newsletter | Scroll to the bottom of any page, and user inuts their email address | once the user submits their email address they will get a feedback to inform them it has been successful | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/test/user-stories/user-story-21.jpg">
+</details>
+<br>
+
+
+
 
 ## Bugs
 
 | **Bug** | **Fix** |
 | ----------- | ----------- |
-| White Space was showing on the event section  | Added margin 0 to the div of the event section removed this |
-| Content overflow into different sections on mobile | Added min-height to sections to allow the section to grow with content on mobile |
-| Contrast issues with all images that has a text overlay | Added a opaque overlay to all images |
-| Bootstrap fixed-top nav bar was overlapping some content on pages | Set the body to have padding-top of 50px |
+| Red colour used for background was failing the contrast accessibility test  | Made the red darker to pass |
+| Contact form let the user submit with empty fields | Added function to check for input |
+| Football stats table were not very responsive | Add class 'mob-hide' to some not so priority 'th' and 'td' |
+| football stats page showed errors for each image not having an alt tag | added the template literal of ${teamName} to the alt tag |
 
 ## Deployment
 The website was deployed using GitHub Pages by following these steps:
