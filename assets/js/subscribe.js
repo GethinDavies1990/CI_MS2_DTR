@@ -1,3 +1,7 @@
+(function () {
+  emailjs.init("ga5PLTovBmNLpTpJO");
+})();
+
 // Subsribe email function, if a user inputs their email address into the subscribe-box they will get added to our contact list
 
 function validate() {
