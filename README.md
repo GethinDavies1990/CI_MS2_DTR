@@ -422,16 +422,25 @@ The website was tested on the following browsers:
 
 ## First-time User 
 
-1. As a first time user, I want to find out the latest prmier league standings
+1. As a first time user, I want to find out the latest premier league standings
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Premier League Standings | Navigate to the how to 'stats' link in navbar, locate the Premier league standing table | Locating the table will show the up to dat premier league standing's table | Works as expected |
+| Premier League Standings | Navigate to the 'stats' link in navbar, locate the Premier league standing table | Locating the table will show the up to date premier league standing's table | Works as expected |
 
 <details><summary>Screenshot</summary>
 <img src="docs/test/user-stories/user-story-1.jpg">
 </details>
 
+2. As a first time user, I want to find out the latest prmier league standings
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Premier League Top Goal Scorers | Navigate to the 'stats' link in navbar, locate the Premier league top goal scorer table | Locating the table will show the up to date premier league top goal scorer's table | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/test/user-stories/user-story-2.jpg">
+</details>
 
 
 
