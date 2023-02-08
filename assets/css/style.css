@@ -278,27 +278,29 @@ h1, h2, h3, h4 {
 }
 
 th {
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding: 5px;
     background-color: #111;
     color: #fff;
+    text-align: left;
 }
 
 td {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     padding: 5px;
+    text-align: left;
 }
 
 /* styles the team logo in the API */
 .team-logo {
-    height: 40px;
+    height: 60px;
     padding-right: 30px;
     padding-bottom: 10px;
 }
 
 /* styles the player profile picture in the API */
 .player-photo {
-    height: 50px;
+    height: 60px;
     padding-right: 30px;
     padding-bottom: 10px;
 }
@@ -414,6 +416,10 @@ legend {
     }
 
     .team-logo {
+        height: 30px;
+    }
+
+    .player-photo {
         height: 30px;
     }
 
