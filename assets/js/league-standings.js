@@ -1,4 +1,8 @@
-// API used to bring in the latest standings for the premier league, the api is limited to 100 requests a day
+/**
+ * API used to bring in the latest standings for the premier league, the api is limited to 100 requests a day
+ * settings, are the parameters required to fetch the data from the API-football
+ * followed the API documentation to see how to implement the settings into my code
+ */
 var settings = {
   url: "https://v3.football.api-sports.io/standings?league=39&season=2022",
   method: "GET",
@@ -9,63 +13,46 @@ var settings = {
   },
 };
 
-// Gets the team data using the getJSON method in jQuery  
-$.ajax(settings).done(function leagueData (league) {
-    var standingsLength = league.response[0].league.standings[0].length;
-    for (var i = 0; i < standingsLength; i++) {
+/**
+ * GetJSON method was used to fetch the data from the API-Sports
+ * I followed the documentation on the API-sports website to see how to fetch the data correctly,
+ * and also checked back on the API module on the code institutes learning platform.
+ * line 37 loops through each team and outputs their rank to the console.
+ * Line 38 loops through each team and output their name to the console.
+ * Line 39 loops through each team logo and outputs to the console.
+ * Line 40 Loops through the teams and how many matches they have played.
+ * Line 41 Loops through the teams and outputs their win tally to the console.
+ * Line 42 Loops through the teams and outputs their draw tally to the console.
+ * Line 43 Loops through the teams and outputs their lose tally to the console.
+ * Line 44 Loops through the teams and outputs their goals for tally to the console.
+ * Line 45 Loops through the teams and outputs their goals against tally to the console.
+ * Line 46 Loops through the teams and outputs their goals diff tally to the console.
+ * Line 47 Loops through the teams and outputs their points tally to the console.
+ * Line 48 Loops through the teams and outputs their current form to the console.
+ */
+$.ajax(settings).done(function leagueData(league) {
+  var standingsLength = league.response[0].league.standings[0].length;
+  for (var i = 0; i < standingsLength; i++) {
+    var teamRank = league.response[0].league.standings[0][i].rank;
+    var teamName = league.response[0].league.standings[0][i].team.name;
+    var teamLogo = league.response[0].league.standings[0][i].team.logo;
+    var matchesPlayed = league.response[0].league.standings[0][i].all.played;
+    var teamWins = league.response[0].league.standings[0][i].all.win;
+    var teamDraw = league.response[0].league.standings[0][i].all.draw;
+    var teamLoss = league.response[0].league.standings[0][i].all.lose;
+    var teamGoalsFor = league.response[0].league.standings[0][i].all.goals.for;
+    var teamGoalsAgainst =
+      league.response[0].league.standings[0][i].all.goals.against;
+    var teamGoalDifference =
+      league.response[0].league.standings[0][i].goalsDiff;
+    var teamPoints = league.response[0].league.standings[0][i].points;
+    var teamForm = league.response[0].league.standings[0][i].form;
 
-      // loops through each team and outputs their rank to the console
-      var teamRank = league.response[0].league.standings[0][i].rank;
-      // console.log(teamRank);
-
-      // loops through each team and outputs to the console
-      var teamName = league.response[0].league.standings[0][i].team.name;
-      // console.log(teamName);
-
-      // Loops through the teams logo's
-      var teamLogo = league.response[0].league.standings[0][i].team.logo;
-      // console.log(teamLogo)
-
-      // Loops through the teams and how many matches they have played
-      var matchesPlayed = league.response[0].league.standings[0][i].all.played;
-      // console.log(matchesPlayed)
-
-      //  Loops through the teams and outputs their win tally to the console
-      var teamWins = league.response[0].league.standings[0][i].all.win;
-      // console.log(teamWins)
-
-      //  Loops through the teams and outputs their draw tally to the console
-      var teamDraw = league.response[0].league.standings[0][i].all.draw;
-      // console.log(teamDraw)
-
-      //  Loops through the teams and outputs their lose tally to the console
-      var teamLoss = league.response[0].league.standings[0][i].all.lose;
-      // console.log(teamLoss)
-
-      //  Loops through the teams and outputs their goals for tally to the console
-      var teamGoalsFor = league.response[0].league.standings[0][i].all.goals.for;
-      // console.log(teamGoalsFor)
-
-      //  Loops through the teams and outputs their goals against tally to the console
-      var teamGoalsAgainst = league.response[0].league.standings[0][i].all.goals.against;
-      // console.log(teamGoalsAgainst)
-
-      //  Loops through the teams and outputs their goals diff tally to the console
-      var teamGoalDifference = league.response[0].league.standings[0][i].goalsDiff;
-      // console.log(teamGoalDifference)
-
-      //  Loops through the teams and outputs their points tally to the console
-      var teamPoints = league.response[0].league.standings[0][i].points;
-      // console.log(teamPoints)
-
-      //  Loops through the teams and outputs their current form to the console
-      var teamForm = league.response[0].league.standings[0][i].form;
-      // console.log(teamForm)
-      
-
-
-      //  inputs League standings data into a HTML table
-      $("#standings-table tbody").append(`<tr><td>${teamRank}</td>
+    /**
+     * inputs League standings data into a HTML table using template literals,
+     *  the class of 'mob-hide' was added to less important data to help improve responsiveness on mobile
+     */
+    $("#standings-table tbody").append(`<tr><td>${teamRank}</td>
       <td><img class='team-logo' alt='${teamName} club crest' src='${teamLogo}'>${teamName}</td>
       <td class="mob-hide">${matchesPlayed}</td>
       <td>${teamWins}</td>
@@ -76,6 +63,5 @@ $.ajax(settings).done(function leagueData (league) {
       <td class="mob-hide">${teamGoalDifference}</td>
       <td>${teamPoints}</td>
       <td class="mob-hide">${teamForm}</td></tr>`);
-    }
-  });
-  
+  }
+});
