@@ -1,3 +1,4 @@
+// Questions used in the quiz game
 let questions = [
         { 
             question: 'What sport is described as "the beautiful game"?',
