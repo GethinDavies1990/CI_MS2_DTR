@@ -12,23 +12,7 @@ h1, h2, h3, h4 {
     color: #fff;
 }
 
-.homepage-about {
-    padding: 10px 10px;
-    width: 100vw;
-    max-width: 80%;
-}
-
-.about-header {
-    padding-left: 20px;
-    color: #fff;
-    font-size: 2rem;
-}
-.about-text {
-    font-size: 1.5rem;
-    color: #fff;
-    padding: 10px 20px;
-}
-
+/* LoveSports Logo */
 .logo {
     float: left;
     font-size: 2.5rem;
@@ -37,6 +21,7 @@ h1, h2, h3, h4 {
     color: #fff;
 }
 
+/* Navbar inspired by my project 1 milestone, !important was used to remove the bootstrap default colors */
 .navbar {
     background-color: #DB2929 !important;
 }
@@ -48,7 +33,7 @@ h1, h2, h3, h4 {
     margin-right: 50px;
 }
 
-
+/* hero image */
 #image-wrapper {
     background: url("../images/hero.webp");
     background-size: cover;
@@ -60,9 +45,9 @@ h1, h2, h3, h4 {
     margin: 10px auto;
     padding-top: 30px;
     border-radius: 5px;
-
 }
 
+/* hero image background red filter, inpired by css tricks website */
 #image-wrapper::before {
     content: "";
     background-color: rgba(211, 51, 51, 0.6);
@@ -74,7 +59,7 @@ h1, h2, h3, h4 {
     z-index: 1;
     border-radius: 10px;
 }
-
+/* Hero box whihc holds the typing effect element */
 #hero-box {
     position: absolute;
     top: 50%;
@@ -86,9 +71,23 @@ h1, h2, h3, h4 {
     font-size: 25px;
 }
 
+/* typing effect on hero image, powered by a jquery plugin called type effect */
 .typing-effect {
     font-size: 55px;
     font-weight: 500;
+}
+
+/* About header made fully responsive on all devices using bootstrap */
+.about-header {
+    padding-left: 20px;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.about-text {
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 10px 20px;
 }
 
 .homepage-about {
@@ -97,6 +96,7 @@ h1, h2, h3, h4 {
     align-items: center;
 }
 
+/* div holding the social media information */
 .social-container {
     text-align: center;
     color: #fff;
@@ -117,9 +117,11 @@ h1, h2, h3, h4 {
     padding: 15px 15px;
 }
 
+/* social icons change to black on hover */
 .socials:hover {
     color: #111;
 }
+
 /* Quiz Game */
 
 .quiz-header {
@@ -128,6 +130,7 @@ h1, h2, h3, h4 {
     justify-content: space-between;
 }
 
+/* div that holds the quiz game */
 .quiz-body {
     padding: 0;
     margin: 0;
@@ -155,8 +158,6 @@ h1, h2, h3, h4 {
     font-weight: 500;
     font-size: 20px;
 }
-
-
 
 .quiz-container {
     width: 800px;
@@ -189,12 +190,14 @@ h1, h2, h3, h4 {
     border-color: #111;
 }
 
+/* javaScript adds this class on correct answers */
 .btn.correct {
     background-color: #50C878;
     border-color: #23903c;
     color: #fff;
 }
 
+/* javaScript adds this class on incorrect answers */
 .btn.wrong {
     background-color: #DB2929;
     border-color: #a42834;
@@ -213,17 +216,18 @@ h1, h2, h3, h4 {
     margin: 10px;
 }
 
-
 .controls {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* hide class used to hide some elements for the quiz game once started, and next question */
 .hide {
     display: none;
 }
 
+/* styles for the feedback prompt when questions are answered. */
 .answer-feedback {
     width: 100%;
     text-align: center;
@@ -285,13 +289,14 @@ td {
     padding: 5px;
 }
 
-
+/* styles the team logo in the API */
 .team-logo {
     height: 40px;
     padding-right: 30px;
     padding-bottom: 10px;
 }
 
+/* styles the player profile picture in the API */
 .player-photo {
     height: 50px;
     padding-right: 30px;
@@ -299,7 +304,6 @@ td {
 }
 
 /* Form */
-
 .form-container {
     background-color: #fff;
     margin: 30px auto;
@@ -317,7 +321,6 @@ td {
     display: grid;
     justify-content: center;
     text-align: center;
-    
 }
 
 .input {
@@ -366,8 +369,6 @@ legend {
     padding-bottom: 5px;
 }
 
-
-
 /* 404 page */
 
 .error-section {
@@ -389,7 +390,7 @@ legend {
     font-size: 35px;
     padding-top: 30px;
 }
-
+/* media queries for mobile */
 @media screen and (max-width: 768px) {
     .choice-container {
         min-width: 40rem;
@@ -440,10 +441,9 @@ legend {
     #image-wrapper {
         width: 90%;
         margin: 10px auto;
-    
     }
+
     .logo {
-       
         font-size: 1.2rem;
         padding-left: 10px;
     }
