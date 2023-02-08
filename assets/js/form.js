@@ -1,8 +1,6 @@
-/**
- * global swal
- * global emailjs
- * Gobal variables added in comments to top of documents, JShint was showing these as unsued variables.
- */
+//  global variables added to top of js file, js hint kept showing these as unused because they are in an external file
+/* global swal */
+/* global emailjs */
 
 // function to send email in contact form.
 (function () {

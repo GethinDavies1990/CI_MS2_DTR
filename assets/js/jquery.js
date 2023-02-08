@@ -1,3 +1,6 @@
+//  global variables added to top of js file, js hint kept showing these as unused because they are in an external file
+/* global typed */
+
 // Adds the toggle effect to the Rules of the quiz container
 $(function() {
     $("#quiz-rules-container h1").on("click", function() {

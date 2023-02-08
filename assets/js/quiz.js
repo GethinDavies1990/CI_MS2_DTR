@@ -69,7 +69,10 @@ function startTimer() {
   }, 1000);
 }
 
-//  sets the next question
+/**
+ * sets the next question
+ * questions are kept in an external folder
+ */
 function setNextQuestion() {
   resetState();
   showQuestion(shuffledQuestions[currentQuestionIndex]);

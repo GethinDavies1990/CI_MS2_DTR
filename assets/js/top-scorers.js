@@ -43,7 +43,5 @@ $.ajax(settings2).done(function scorereData(topScorer) {
     <td>${playerGoal}</td>
     <td>${playerAssists}</td>
     </tr>`);
-
-
   }
 });
