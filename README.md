@@ -137,42 +137,44 @@ The page is structured to be user friendly and only has 4 pages, The Homepage, T
 
 ### Wireframes
 
-#### Desktop
+I made the wireframes using figma, I made every effort to stick to this deisgn plan with only subtle changes made in the finsished project
 
-<details><summary>Hero</summary>
-<img src="docs/wireframes/wf-hero.jpg">
+## Desktop
+
+<details><summary>Index</summary>
+<img src="docs/wireframes/index-desktop.jpg">
 </details>
-<details><summary>Testimonial</summary>
-<img src="docs/wireframes/wf-testimonial.jpg">
+<details><summary>Football Stats</summary>
+<img src="docs/wireframes/stats-desktop.jpg">
 </details>
-<details><summary>Our Story</summary>
-<img src="docs/wireframes/wf-our-story.jpg">
+<details><summary>Quiz</summary>
+<img src="docs/wireframes/quiz-desktop.jpg">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/wireframes/wf-contact.jpg">
-</details>
-<details><summary>Footer</summary>
-<img src="docs/wireframes/wf-footer.jpg">
+<img src="docs/wireframes/.jpg">
 </details>
 <details><summary>Error 404</summary>
-<img src="docs/wireframes/wf-404-desktop.jpg">
-</details>
-<details><summary>Book Table</summary>
-<img src="docs/wireframes/wf-book-table-desktop.jpg">
+<img src="docs/wireframes/404-desktop.jpg">
 </details>
 
-#### Mobile
-<details><summary>Mobile</summary>
-<img src="docs/wireframes/wf-mobile.jpg">
+## Mobile
+<details><summary>Index</summary>
+<img src="docs/wireframes/index-mobile.jpg">
 </details>
-<details><summary>404</summary>
-<img src="docs/wireframes/wf-404-mobile.jpg">
+<details><summary>Football Stats</summary>
+<img src="docs/wireframes/stats-mobile.jpg">
 </details>
-<details><summary>Book Table</summary>
-<img src="docs/wireframes/wf-book-table-mobile.jpg">
+<details><summary>Quiz</summary>
+<img src="docs/wireframes/quiz-mobile.jpg">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/wireframes/.jpg">
+</details>
+<details><summary>Error 404</summary>
+<img src="docs/wireframes/404-mobile.jpg">
 </details>
 
-#### Tablet
+## Tablet
 <details><summary>Tablet</summary>
 <img src="docs/wireframes/wf-tablet.jpg">
 </details>
