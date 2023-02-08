@@ -139,7 +139,8 @@ The page is structured to be user friendly and only has 4 pages, The Homepage, T
 
 I made the wireframes using figma, I made every effort to stick to this deisgn plan with only subtle changes made in the finsished project
 
-## Desktop
+#### Desktop
+
 <br>
 <details><summary>Index</summary>
 <img src="docs/wireframes/index-desktop.jpg">
@@ -156,8 +157,10 @@ I made the wireframes using figma, I made every effort to stick to this deisgn p
 <details><summary>Error 404</summary>
 <img src="docs/wireframes/404-desktop.jpg">
 </details>
+<br>
 
-## Mobile
+#### Mobile
+
 <br>
 <details><summary>Index</summary>
 <img src="docs/wireframes/index-mobile.jpg">
@@ -174,8 +177,10 @@ I made the wireframes using figma, I made every effort to stick to this deisgn p
 <details><summary>Error 404</summary>
 <img src="docs/wireframes/404-mobile.jpg">
 </details>
+<br>
 
-## Tablet
+#### Tablet
+
 <br>
 <details><summary>Index</summary>
 <img src="docs/wireframes/index-tablet.jpg">
@@ -192,8 +197,9 @@ I made the wireframes using figma, I made every effort to stick to this deisgn p
 <details><summary>Error 404</summary>
 <img src="docs/wireframes/404-tablet.jpg">
 </details>
+<br>
 
-## Technologies Used
+#### Technologies Used
 
 ### Languages
 - HTML
