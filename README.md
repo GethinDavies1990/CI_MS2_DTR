@@ -140,7 +140,7 @@ The page is structured to be user friendly and only has 4 pages, The Homepage, T
 I made the wireframes using figma, I made every effort to stick to this deisgn plan with only subtle changes made in the finsished project
 
 ## Desktop
-
+<br>
 <details><summary>Index</summary>
 <img src="docs/wireframes/index-desktop.jpg">
 </details>
@@ -151,13 +151,14 @@ I made the wireframes using figma, I made every effort to stick to this deisgn p
 <img src="docs/wireframes/quiz-desktop.jpg">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/wireframes/.jpg">
+<img src="docs/wireframes/contact-mobile.jpg">
 </details>
 <details><summary>Error 404</summary>
 <img src="docs/wireframes/404-desktop.jpg">
 </details>
 
 ## Mobile
+<br>
 <details><summary>Index</summary>
 <img src="docs/wireframes/index-mobile.jpg">
 </details>
@@ -168,23 +169,29 @@ I made the wireframes using figma, I made every effort to stick to this deisgn p
 <img src="docs/wireframes/quiz-mobile.jpg">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/wireframes/.jpg">
+<img src="docs/wireframes/contact-mobile.jpg">
 </details>
 <details><summary>Error 404</summary>
 <img src="docs/wireframes/404-mobile.jpg">
 </details>
 
 ## Tablet
-<details><summary>Tablet</summary>
-<img src="docs/wireframes/wf-tablet.jpg">
+<br>
+<details><summary>Index</summary>
+<img src="docs/wireframes/index-tablet.jpg">
 </details>
-<details><summary>404</summary>
-<img src="docs/wireframes/wf-404-tablet.jpg">
+<details><summary>Football Stats</summary>
+<img src="docs/wireframes/stats-tablet.jpg">
 </details>
-<details><summary>Book Table</summary>
-<img src="docs/wireframes/wf-book-table-tablet.jpg">
+<details><summary>Quiz</summary>
+<img src="docs/wireframes/quiz-tablet.jpg">
 </details>
-
+<details><summary>Contact</summary>
+<img src="docs/wireframes/contact-tablet.jpg">
+</details>
+<details><summary>Error 404</summary>
+<img src="docs/wireframes/404-tablet.jpg">
+</details>
 
 ## Technologies Used
 
