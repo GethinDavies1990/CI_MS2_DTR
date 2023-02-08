@@ -52,49 +52,51 @@
                 </div>
             </div>
         </nav>
-        <!-- Premier League live standings, API used for API-SPORTS -->
-        <section> 
+        <!-- Premier League live standings, API used for API-SPORTS. The table outlay was inpsired by googles own premier league standings tracker -->
+        <section>
             <div class="stat-container row">
-            <div class="standings-container col-12 col-md-12 col-lg-6  stat-card">
-                <h1 class="stat-heading">Premier League Standings</h1>
-                <table id="standings-table">
-                    <thead>
-                        <tr>
-                            <th>Rank</th>
-                            <th>Team</th>
-                            <th class="mob-hide">MP</th>
-                            <th>W</th>
-                            <th>D</th>
-                            <th>L</th>
-                            <th class="mob-hide">GF</th>
-                            <th class="mob-hide">GA</th>
-                            <th class="mob-hide">GD</th>
-                            <th >Pts</th>
-                            <th class="mob-hide">Last 5</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    </tbody>
-                </table>
+                <div class="standings-container col-12 col-md-12 col-lg-6  stat-card">
+                    <h1 class="stat-heading">Premier League Standings</h1>
+                    <table id="standings-table">
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Team</th>
+                                <th class="mob-hide">MP</th>
+                                <th>W</th>
+                                <th>D</th>
+                                <th>L</th>
+                                <th class="mob-hide">GF</th>
+                                <th class="mob-hide">GA</th>
+                                <th class="mob-hide">GD</th>
+                                <th>Pts</th>
+                                <th class="mob-hide">Last 5</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Premier League live top gaol scorers, API used for API-SPORTS, This table output was inpired by the NFL top scoring titles.
+                 player profile pictures are used and also their respective team logo's -->
+                <div class="scorer-container col-12 col-md-12 col-lg-6 stat-card">
+                    <h1 class="stat-heading">Premier League Top Goal Scorers</h1>
+                    <table id="scorer-table">
+                        <thead>
+                            <tr>
+                                <th>Player</th>
+                                <th>Club</th>
+                                <th>Goals</th>
+                                <th>Assists</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-            <!-- Premier League live top gaol scorers, API used for API-SPORTS -->
-            <div class="scorer-container col-12 col-md-12 col-lg-6 stat-card">
-                <h1 class="stat-heading">Premier League Top Goal Scorers</h1>
-                <table id="scorer-table">
-                    <thead>
-                        <tr>
-                            <th>Player</th>
-                            <th>Club</th>
-                            <th>Goals</th>
-                            <th>Assists</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    </tbody>
-                </table>
-            </div>
-        </div>  
         </section>
+        <!-- Footer with social media links -->
         <footer>
             <div class="social-container">
                 <h2 class="social-header">Keep up to date with everything LoveSport!</h2>
@@ -115,8 +117,9 @@
                         aria-hidden="true"></i></a>
                 <span class="sr-only">TikTok</span>
             </div>
-            
+
         </footer>
+        <!-- Scripts for the two API's used in this page -->
         <script src="assets/js/league-standings.js"></script>
         <script src="assets/js/top-scorers.js"></script>
 
