@@ -7,7 +7,8 @@
   emailjs.init("ga5PLTovBmNLpTpJO");
 })();
 
-/** This function checks to make sure the user has input a vlue in the fields.
+/** 
+ * This function checks to make sure the user has input a vlue in the fields.
  * The function also checks for email validation.
  * The validation code was taken from a youtube video by 'webdevsimplified'.
  * if validation and value is input the email will be sent,
@@ -35,7 +36,12 @@ function validate() {
 }
 validate();
 
-// function used to send the email using emailjs
+/**
+ * function used to send the email using emailjs
+ * @param {name} name 
+ * @param {email} email 
+ * @param {msg} msg 
+ */
 function sendmail(name, email, msg) {
   emailjs.send("service_b38lf6p", "template_a8llwvu", {
     name: name,
@@ -44,9 +50,10 @@ function sendmail(name, email, msg) {
   });
 }
 
-// Sweet Alert library used to display feedback on form submission
-
-// Function called if fields are empty and a submit is attempted
+/**
+ * Sweet Alert library used to display feedback on form submission
+ * Function called if fields are empty and a submit is attempted
+ */
 function emptyError() {
   swal({
     icon: "error",

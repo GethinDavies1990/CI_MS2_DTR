@@ -17,18 +17,20 @@ var settings = {
  * GetJSON method was used to fetch the data from the API-Sports
  * I followed the documentation on the API-sports website to see how to fetch the data correctly,
  * and also checked back on the API module on the code institutes learning platform.
- * line 37 loops through each team and outputs their rank to the console.
- * Line 38 loops through each team and output their name to the console.
- * Line 39 loops through each team logo and outputs to the console.
- * Line 40 Loops through the teams and how many matches they have played.
- * Line 41 Loops through the teams and outputs their win tally to the console.
- * Line 42 Loops through the teams and outputs their draw tally to the console.
- * Line 43 Loops through the teams and outputs their lose tally to the console.
- * Line 44 Loops through the teams and outputs their goals for tally to the console.
- * Line 45 Loops through the teams and outputs their goals against tally to the console.
- * Line 46 Loops through the teams and outputs their goals diff tally to the console.
- * Line 47 Loops through the teams and outputs their points tally to the console.
- * Line 48 Loops through the teams and outputs their current form to the console.
+ * teamRank loops through each team and outputs their rank to the console.
+ * teamName loops through each team and output their name to the console.
+ * teamLogo loops through each team logo and outputs to the console.
+ * matchesPlayed Loops through the teams and how many matches they have played.
+ * teamWins Loops through the teams and outputs their win tally to the console.
+ * teamDraw Loops through the teams and outputs their draw tally to the console.
+ * teamLoss Loops through the teams and outputs their lose tally to the console.
+ * teamGoalsFor Loops through the teams and outputs their goals for tally to the console.
+ * teamGoalsAgainst Loops through the teams and outputs their goals against tally to the console.
+ * teamGoalDifference Loops through the teams and outputs their goals diff tally to the console.
+ * teamPoints Loops through the teams and outputs their points tally to the console.
+ * teamForm Loops through the teams and outputs their current form to the console.
+ * @param league [the premier league data]
+ * @param settings [url, headers needed for API]
  */
 $.ajax(settings).done(function leagueData(league) {
   var standingsLength = league.response[0].league.standings[0].length;
@@ -41,10 +43,8 @@ $.ajax(settings).done(function leagueData(league) {
     var teamDraw = league.response[0].league.standings[0][i].all.draw;
     var teamLoss = league.response[0].league.standings[0][i].all.lose;
     var teamGoalsFor = league.response[0].league.standings[0][i].all.goals.for;
-    var teamGoalsAgainst =
-      league.response[0].league.standings[0][i].all.goals.against;
-    var teamGoalDifference =
-      league.response[0].league.standings[0][i].goalsDiff;
+    var teamGoalsAgainst = league.response[0].league.standings[0][i].all.goals.against;
+    var teamGoalDifference = league.response[0].league.standings[0][i].goalsDiff;
     var teamPoints = league.response[0].league.standings[0][i].points;
     var teamForm = league.response[0].league.standings[0][i].form;
 

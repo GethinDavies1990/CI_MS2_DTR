@@ -11,7 +11,6 @@
 function validate() {
     let subscribeEmail = document.getElementById("subscribe-email");
     let subscribeSubmit = document.getElementById("subscribe-submit");
-
     subscribeSubmit.addEventListener("click", (e) => {
       e.preventDefault();
       if (subscribeEmail.value == "") {
@@ -27,15 +26,20 @@ function validate() {
   validate();
 
   // function used to send the email using emailjs
+  /**
+   * 
+   * @param email [subscribe email]
+   */
   function sendmail(email) {
     emailjs.send("service_qknmyza", "template_yfl3t0n", {
       "subscribe-email": email,
     });
   }
 
-// Sweet Alert library used to display feedback on form submission
-
-// Function called if fields are empty and a submit is attempted
+/**
+ * Sweet Alert library used to display feedback on form submission
+ * Function called if fields are empty and a submit is attempted
+ */
   function subEmptyerror() {
     swal({
       icon: "error",
