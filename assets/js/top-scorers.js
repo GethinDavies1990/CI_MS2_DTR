@@ -18,11 +18,12 @@ var settings2 = {
  * I followed the documentation on the API-sports website to see how to fetch the data correctly,
  * Gets the top goal scorers of the premier league using the getJSON method in jQuery
  * and also checked back on the API module on the code institutes learning platform.
- * Line 30 loops through player and outputs their photo
- * Line 31 loops through player and outputs their name
- * Line 32 loops through player and outputs their clubs logo
- * Line 33 loops through player and outputs their goal tally
- * Line 34 loops through player and outputs their assists tally
+ * playerPhoto loops through player and outputs their photo
+ * playerName loops through player and outputs their name
+ * teamLogo loops through player and outputs their clubs logo
+ * playerGoal loops through player and outputs their goal tally
+ * playerAssists loops through player and outputs their assists tally
+ * @param settings2 [url, headers for API]
  */
 $.ajax(settings2).done(function scorereData(topScorer) {
   var players = topScorer.response;
