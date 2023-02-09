@@ -1,4 +1,3 @@
-
 // Questions used in the quiz game
 let questions = [
     { 
@@ -86,5 +85,5 @@ let questions = [
                 {text: 'David Beckham', correct: false},
                 {text: 'Wayne Rooney', correct: true}   
         ]
-    }, 
+    } 
 ];
