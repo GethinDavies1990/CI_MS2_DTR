@@ -371,6 +371,7 @@ The WAVE WebAIM web accessibility evaluation tool was used to ensure the website
 </details>
 
 ### JavaScript Validation
+The JSHint code quality test, showed a few unused variables, this is because they were in external folders, or being used by cdn's, after a lot of googling it looks like it should be put in the top of each file as a global variable comment. this is evident in a few of the js hint screenshots and folders.
 <details><summary>Form</summary>
 <img src="docs/validation/javascript/form-jshint.jpg">
 </details>

@@ -1,3 +1,6 @@
+/* global questions */
+/* global swal */
+
 const startButton = document.getElementById("start-btn");
 const nextButton = document.getElementById("next-btn");
 const questionContainerElement = document.getElementById("question-container");
@@ -7,7 +10,6 @@ const questionCounterElement = document.getElementById("question-counter");
 const currentQuestionElement = document.getElementById("current-question");
 const totalQuestionsElement = document.getElementById("total-questions");
 const scoreCounterElement = document.getElementById("score-counter");
-const currentScoreElement = document.getElementById("current-score");
 const answerFeedback = document.getElementById("answer-feedback");
 const timerElement = document.getElementById("timer");
 const quizRules = document.getElementById("quiz-rules-container");
