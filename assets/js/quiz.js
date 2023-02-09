@@ -1,6 +1,3 @@
-/* global questions */
-/* global swal */
-
 const startButton = document.getElementById("start-btn");
 const nextButton = document.getElementById("next-btn");
 const questionContainerElement = document.getElementById("question-container");
@@ -20,6 +17,8 @@ let timer;
 
 /**
  * Initiates the start of the quiz
+ * This quiz was based off a tutorial a followed along with before starting
+ * code insitute
  * sets the first question, and starts the timer function
  */
 startButton.addEventListener("click", startGame);
