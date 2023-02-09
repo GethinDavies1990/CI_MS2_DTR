@@ -676,7 +676,23 @@ The website was tested on the following browsers:
 </details>
 <br>
 
+## Console log Testing 
+<br>
+<details><summary>Home</summary>
+<img src="docs/test/console-log-tests/home-log.jpg">
+</details>
 
+<details><summary>Football Stats</summary>
+<img src="docs/test/console-log-tests/stats-log.jpg">
+</details>
+
+<details><summary>Contact</summary>
+<img src="docs/test/console-log-tests/contact-log.jpg">
+</details>
+
+<details><summary>Quiz</summary>
+<img src="docs/test/console-log-tests/quiz-log.jpg">
+</details>
 
 
 ## Bugs

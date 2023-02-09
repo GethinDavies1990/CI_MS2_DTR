@@ -1,4 +1,4 @@
-/* global questions */
+
 // Questions used in the quiz game
 let questions = [
     { 

@@ -19,3 +19,4 @@ typeEffect.typed = new Typed(".typing-effect", {
   backSpeed: 70,
   loop: false,
 });
+
