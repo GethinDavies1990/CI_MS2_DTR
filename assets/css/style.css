@@ -301,7 +301,7 @@ td {
 /* styles the player profile picture in the API */
 .player-photo {
     height: 40px;
-    padding-right: 30px;
+    padding-right: 20px;
     padding-bottom: 10px;
 }
 
@@ -451,5 +451,10 @@ legend {
 
     .navbar-nav a {
         padding-left: 10px;
+    }
+
+    #standings-table, #scorer-table {
+        padding: 10px 5px;
+        width: 90%;
     }
 }
