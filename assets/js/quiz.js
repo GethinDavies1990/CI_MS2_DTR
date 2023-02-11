@@ -1,3 +1,7 @@
+//  global variables added to top of js file, js hint kept showing these as unused because they are in an external file
+/* global swal */
+/* global questions */
+
 const startButton = document.getElementById("start-btn");
 const nextButton = document.getElementById("next-btn");
 const questionContainerElement = document.getElementById("question-container");
