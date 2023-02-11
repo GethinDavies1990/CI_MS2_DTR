@@ -110,7 +110,7 @@ The webpage was designed to be easy to navigate and eye catching with a nice con
 
 ### Colour
 I wanted to use bright colours for the design, to attract the customer to the website. the colour chosen for the main background and the majority of the websote was #DB2929.
-White #ffffff was then used for the text accorss all part of the website and also black #111111 where a white background was used/
+White #ffffff was then used for the text accorss all part of the website and also black #111111 where a white background was used. #50C878 was used mostly in the quiz game of the website, to give positive feedback on correct answers. 
 <br>
 
 ![Colour scheme](docs/features/color-scheme.jpg)
@@ -134,7 +134,7 @@ The page is structured to be user friendly and only has 4 pages, The Homepage, T
 - The footer section includes the social media links, on the index.html page it also includes a subscribe email submit form. 
 - The football stats page includes 2 table which display the live current football standings and also the top goal scorer tally of the premier league. 
 - The quiz page includes a quiz rules dropdown box to list the user with the rules to play the quiz
-- The conatct page includes a form to submit to get in touch with the site owner
+- The contact page includes a form to submit to get in touch with the site owner
 
 ### Wireframes
 
@@ -222,7 +222,7 @@ I made the wireframes using figma, I made every effort to stick to this deisgn p
 - Favicon<span>.</span>io
 
 ## Features
-The site consists of 4 pages and fourteen features
+The site consists of 4 pages and 9 features
 
 ### Navigation Bar
 - Featured on all four pages
@@ -354,7 +354,7 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS of the websit
 </details>
 
 ### Accessibility
-The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 alerts, some pages had a few contrast errors for the text that overlays the images.
+The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 alerts.
 <details><summary>Home</summary>
 <img src="docs/validation/accessibility/home-page.jpg">
 </details>
@@ -372,7 +372,7 @@ The WAVE WebAIM web accessibility evaluation tool was used to ensure the website
 </details>
 
 ### JavaScript Validation
-The JSHint code quality test, showed a few unused variables, this is because they were in external folders, or being used by cdn's, after a lot of googling it looks like it should be put in the top of each file as a global variable comment. this is evident in a few of the js hint screenshots and folders.
+The JSHint code quality test, showed a few unused variables, this is because they were in external folders, or being used by cdn's, after a lot of googling it looks like it should be put in the top of each file as a global variable comment. this is evident in a few of the js hint screenshots and folders, once this was done all JS folders pass.
 <details><summary>Form</summary>
 <img src="docs/validation/javascript/form-jshint.jpg">
 </details>
@@ -728,6 +728,7 @@ You can clone the repository by following these steps:
 ## RapidAPI - Sports API - Football
  1. create an account
  2. once you have created an account you will be supplied with a key and parameters needed to fetch the data
+ 3. The api is on a freemium tier, and is limited to a 100 fetches a day. 
 
  ## Email JS
 
@@ -748,16 +749,22 @@ Images not referenced below are owned by the developer.
 
 ### Code
 * Bootstrap was used in many areas of the website to make it responsive.
-* Jquery was used to add some animation and was also used to make develop the API for both the 'Premier league standings' & 'Top Goal Scorer's Table' using the getJSON method.
+* Jquery was used to add some animation and was also used to develop the API for both the 'Premier league standings' & 'Top Goal Scorer's Table' using the getJSON method.
 * The function used was seen on a youtube video. the video showed a function to loop through certain data, I then used this technique to loop through the endpoints I wanted to suit my requirements
 * the template literal code at the bottom of each API, I saw this technique on another youtube video to append the data onto the DOM
-* The quiz game was based on a quiz game I made on a online tutorial in the past, I used this concept, and added more functions into the quiz game to make it more interactive. 
-* The timer function I made from looking at documentation on w3 schools and some stack overflow forums
+* The quiz game was based on a quiz game I made on a online tutorial in the past (before my code institute course), I used this concept, and added more functions into the quiz game to make it more interactive. 
+* The timer function I made from looking at documentation on w3 schools and some stack overflow forums.
+
+## Future Addtions
+In the future I would like to add more leagues to the football stats table, and add easy, medium and hard versions of the quiz. 
+I would also like to add the function to store the users score. 
 
 [Back to Table Of Content](#Table-of-Content)
+
 
 ## Acknowledgements
 I would like to take the opportunity to thank:
 - My mentor Mo Shami for his feedback, advice, guidance and support.
 - My Wife for her continued support and giving me the time to do this project
 - My Parents for testing out the website when I asked of them
+
