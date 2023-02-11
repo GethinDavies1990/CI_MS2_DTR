@@ -40,9 +40,9 @@ $.ajax(settings2).done(function scorereData(topScorer) {
      */
     $("#scorer-table tbody").append(`<tr>
     <td><img class='player-photo' alt='${playerName} profile picture' src='${playerPhoto}'> ${playerName}</td>
-    <td><img class='team-logo' alt='${teamLogo} crest badge' src='${teamLogo}'></td>
-    <td>${playerGoal}</td>
-    <td>${playerAssists}</td>
+    <td><img class='team-logo text-centre' alt='${teamLogo} crest badge' src='${teamLogo}'></td>
+    <td class="text-centre">${playerGoal}</td>
+    <td class="text-centre">${playerAssists}</td>
     </tr>`);
   }
 });
