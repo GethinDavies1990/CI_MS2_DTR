@@ -286,21 +286,21 @@ th {
 }
 
 td {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     padding: 5px;
     text-align: left;
 }
 
 /* styles the team logo in the API */
 .team-logo {
-    height: 60px;
+    height: 40px;
     padding-right: 30px;
     padding-bottom: 10px;
 }
 
 /* styles the player profile picture in the API */
 .player-photo {
-    height: 60px;
+    height: 40px;
     padding-right: 30px;
     padding-bottom: 10px;
 }
@@ -334,7 +334,6 @@ td {
     background-color: #e0e0e0;
     display: grid;
 }
-
 
 label {
     display: grid;
@@ -392,6 +391,7 @@ legend {
     font-size: 35px;
     padding-top: 30px;
 }
+
 /* media queries for mobile */
 @media screen and (max-width: 768px) {
     .choice-container {
@@ -403,7 +403,7 @@ legend {
     }
 
     .logo {
-        font-size: 1.8rem;
+        font-size: 2rem;
         padding-left: 10px;
     }
 
@@ -447,5 +447,9 @@ legend {
     #image-wrapper {
         width: 90%;
         margin: 10px auto;
+    }
+
+    .navbar-nav a {
+        padding-left: 10px;
     }
 }
