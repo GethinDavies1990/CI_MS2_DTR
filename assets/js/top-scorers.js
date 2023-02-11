@@ -27,6 +27,7 @@ var settings2 = {
  * teamLogo loops through player and outputs their clubs logo
  * playerGoal loops through player and outputs their goal tally
  * playerAssists loops through player and outputs their assists tally
+ * I followed along to a tutorial to fetch a upspalsh API, i used this same technique to fecth the data in my code
  * @param settings2 [url, headers for API]
  */
 $.ajax(settings2).done(function scorereData(topScorer) {

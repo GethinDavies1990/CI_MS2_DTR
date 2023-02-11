@@ -33,6 +33,7 @@ var settings = {
  * teamGoalDifference Loops through the teams and outputs their goals diff tally to the console.
  * teamPoints Loops through the teams and outputs their points tally to the console.
  * teamForm Loops through the teams and outputs their current form to the console.
+ * I followed along to a tutorial to fetch a upspalsh API, i used this same technique to fecth the data in my code
  * @param league [the premier league data]
  * @param settings [url, headers needed for API]
  */
