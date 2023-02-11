@@ -11,7 +11,7 @@ var settings = {
     "x-rapidapi-key": "b2f880e7ae15d7c6f8fa8a87b51b71aa",
     "x-rapidapi-host": "v3.football.api-sports.io",
   },
-  error: function(xhr, status, err) {
+  error: function(err) {
     // Log an error to the console if the request is not successful
     console.log(err);
   }
